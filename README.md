@@ -13,3 +13,7 @@ This is the website for the [Tooloop project](http://www.tooloop.org).
 | [Bulma Steps](https://aramvisser.github.io/bulma-steps/) |                     |
 | [Prism](http://prismjs.com)                              | Syntax highlighting |
 | [FontAwesome](https://fontawesome.com/)                  | Some of the Icons   |
+
+# Install
+
+    git clone --recurse-submodules https://github.com/vollstock/Tooloop-Website.git ./
