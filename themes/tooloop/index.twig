@@ -1,0 +1,46 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+{% set heroimage = random(meta.heroimages) %}
+<section id="hero-image" 
+    class="hero is-fullheight is-dark is-bold has-navbar-fixed-top" 
+    style="background-image: radial-gradient(ellipse at center, rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.75) 1%,rgba(0,0,0,0) 100%), url('{{base_url}}/assets/splash/{{ heroimage.image }}');">
+
+    {% include 'navigation.twig' with {'menu_transparent': 'True'} %}
+
+    <div class="hero-body has-ribbon-bottom">
+        <div class="container has-text-centered">
+            <img src="{{theme_url}}/img/tooloop-signet.svg" height="112" width="260" />
+            <h2 class="subtitle has-text-weight-light">
+                Open media server framework<br/>
+            </h2>
+
+            <div class="buttons is-centered">
+                <a href="{{base_url}}/Boxes" class="button is-rounded    is-primary">
+                    <span class="icon is-small"><i class="fas fa-box"></i></span>
+                    <span>Get a box</span>
+                </a>
+                <a href="{{base_url}}/Manual/Installation/Install Tooloop OS" class="button is-rounded   is-danger">
+                    <span class="icon is-small"><i class="fas fa-arrow-circle-down"></i></span>
+                    <span>Install the OS</span>
+                </a>
+                <a href="{{base_url}}/Apps" class="button is-rounded     is-info">
+                    <span class="icon is-small"><i class="fas fa-magic"></i></span>
+                    <span>Run your app</span>
+                </a>
+            </div>
+
+            <div class="tags has-addons" style="display: inline-flex; margin-top:1rem;">
+                <span class="tag">Status</span>
+                <span class="tag is-dark">alpha</span>
+            </div>
+
+        </div>
+        <div class="ribbon is-small">{{heroimage.credits}}</div>
+    </div>
+</section>
+
+{{ content }}
+
+{% endblock %}

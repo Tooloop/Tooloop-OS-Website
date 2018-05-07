@@ -1,0 +1,23 @@
+{% macro render(root, current_page, level) %}
+    
+    <ul class="tree{% if level == 0 %} trunk{% endif %}">
+
+    {% for node in root.children %}
+        <li class="node{% if node.page.id == current_page.id %} is-active{% endif %}">
+        {% if node.page %}
+        {# {% if false %} #}
+            <a href="{{ node.page.url }}">{# <i class="far fa-file fa-fw has-text-grey"></i>  #}{{ node.page.title }}</a>
+        {% else %}
+            <input type="checkbox" id="trigger-{{node.id|split('/')|last|url_encode}}"{% if node.id in current_page.id %} checked{% endif %}>
+            <label for="trigger-{{node.id|split('/')|last|url_encode}}">{# <i class="fa fa-folder fa-fw has-text-grey"></i>  #}{{node.id|split('/')|last}}</label>
+
+            {% if node.children %}
+                {% import _self as menu %}
+                {{ menu.render(node, current_page, level+1) }}
+            {% endif %}
+        {% endif %}
+        </li>
+    {% endfor %}
+
+    </ul>
+{% endmacro %}

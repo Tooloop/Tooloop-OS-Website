@@ -1,0 +1,74 @@
+{% extends "base.twig" %}
+
+{% block headerscripts %}
+    {{ parent() }}
+    <link href="{{theme_url}}/vendor/prismjs/prism.css" rel="stylesheet" />
+{% endblock %}
+
+{% block footerscripts %}
+    {{ parent() }}
+    <script src="{{theme_url}}/vendor/prismjs/prism.js"></script>
+{% endblock %}
+
+{% block content %}
+
+<section 
+    class="hero is-dark is-bold" >
+    {% include 'navigation.twig' %}
+</section>
+
+<section class="section">
+    <div class="container">
+
+        {# mobile button #}
+        <label id="docs-menu-toggle" for="docs-menu-state" class="button is-light is-small">
+            <i class="fa fa-clipboard-list"></i> Table of contents
+        </label>
+
+        {# state holder #}
+        <input type="checkbox" id="docs-menu-state" />
+        
+        {# menu card #}
+        <aside class="card" id="docs-menu">
+            <header class="card-header">
+                <p class="card-header-title">
+                    Table of contents
+                </p>
+                <a href="#" class="card-header-icon" aria-label="more options">
+                    <span class="icon">
+                        {# <i class="fas fa-angle-down" aria-hidden="true"></i> #}
+                        <label class="delete" for="docs-menu-state"></label>
+                    </span>
+                </a>
+            </header>
+            {# <p class="menu-label">Table of contents</p> #}
+            <div class="card-content">
+                {% import 'docs-menu.twig' as menu %}
+                {% set root %}{{current_page.id|split('/')[0]}}{% endset %}
+                {{ menu.render(pages[root~'/index'].tree_node, current_page) }}
+            </div>
+        </aside>
+
+        <div id="docs-content">
+
+            {# <nav class="breadcrumb" aria-label="breadcrumbs">
+              <ul>
+                <li><a href="#">Bulma</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Components</a></li>
+                <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
+              </ul>
+            </nav> #}
+
+            <h1 class="title">{{meta.title}}</h1>
+            {% if meta.description %}<h2 class="subtitle">{{meta.description}}</h2>{% endif %}
+
+            <div class="content">
+                {{content}}
+            </div>
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

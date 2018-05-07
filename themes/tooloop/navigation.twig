@@ -1,0 +1,31 @@
+<nav class="navbar is-danger "{% if menu_transparent %} style="background-color: rgba(0,0,0,0.5);"{% endif %}>
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="{{ "index"|link }}">
+                <img src="{{theme_url}}/img/tooloop-logo.svg" alt="Tooloop – Open media server framework" width="72" height="28">
+            </a>
+            <label class="navbar-burger burger" for="nav-toggle-state">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <input type="checkbox" id="nav-toggle-state" />
+        <div id="navbar-items" class="navbar-menu">
+            {% set nav_items = [
+                { 'url' : base_url ~ '',             'name' : 'Home' },
+                { 'url' : base_url ~ '/Boxes',       'name' : 'Boxes' },
+                { 'url' : base_url ~ '/OS',          'name' : 'OS' },
+                { 'url' : base_url ~ '/Apps',        'name' : 'Apps' },
+                { 'url' : base_url ~ '/Manual',      'name' : 'User manual' },
+                { 'url' : base_url ~ '/Development', 'name' : 'Development' }
+            ] %}
+            <div class="navbar-end">
+                {% for item in nav_items %}
+                    <a class="navbar-item{% if item.url in current_page.url and item.url != base_url %} is-active{% endif %}" href="{{item.url}}">{{item.name}}</a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</nav>
