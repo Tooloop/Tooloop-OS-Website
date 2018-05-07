@@ -45,22 +45,34 @@
             <div class="card-content">
                 {% import 'docs-menu.twig' as menu %}
                 {% set root %}{{current_page.id|split('/')[0]}}{% endset %}
-                {{ menu.render(pages[root~'/index'].tree_node, current_page) }}
+                {{ menu.render(pages[root~'/index'].tree_node, current_page, 0) }}
             </div>
         </aside>
 
         <div id="docs-content">
 
             {# <nav class="breadcrumb" aria-label="breadcrumbs">
-              <ul>
-                <li><a href="#">Bulma</a></li>
-                <li><a href="#">Documentation</a></li>
-                <li><a href="#">Components</a></li>
-                <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
-              </ul>
+                <ul>
+                    {% set node_path = '' %}
+                    {% for crumb in current_page.id|split('/') %}
+                        {% set node_path = node_path~crumb %}
+                        {% if crumb == root %}
+                            <li><a href="{{pages[root~'/index'].url}}">{{pages[root~'/index'].title}}</a></li>
+                        {% elseif crumb == 'index' %}
+                        {% elseif pages[node_path] %}
+                            <li><a href="">{{ pages[node_path].title }}</a></li>
+                        {% else %}
+                            <li class="is-active"><a href="">{{crumb}}</a></li>
+                        {% endif %}
+
+                        {% if node_path is not empty %}
+                            {% set node_path = node_path~'/' %}
+                        {% endif %}
+                    {% endfor %}
+                </ul>
             </nav> #}
 
-            <h1 class="title">{{meta.title}}</h1>
+            <h1 class="title">{{ meta.title }}</h1>
             {% if meta.description %}<h2 class="subtitle">{{meta.description}}</h2>{% endif %}
 
             <div class="content">
