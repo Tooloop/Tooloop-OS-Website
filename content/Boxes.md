@@ -28,12 +28,12 @@ Template: page
                 <div class="column notification is-light" style="margin:1.5rem 0.75rem; padding: 2rem;">
                     <div class="level is-mobile">
                         <div class="level-left">
-                            <div class="level-item"><i class="fa fa-clipboard-list fa-2x has-text-danger"></i></div>
-                            <div class="level-item"><h2 class="title is-size-5">Shop parts and assemble yourself</h2></div>
+                            <div class="level-item"><i class="fa fa-wrench fa-2x has-text-danger"></i></div>
+                            <div class="level-item"><h2 class="title is-size-5">Shop parts and build yourself</h2></div>
                         </div>
                     </div>
-                    <p>Each box model has a community maintained list, that meet the <a href="#Requirements">requirements</a> and are supported by the OS.</p>
-                    <p>By shopping your own parts you have the freedom to customize builds and re-use parts you already have.</p>
+                    <p>Each box model has a community maintained list of parts, that meet the <a href="#Requirements">requirements</a> and are supported by the OS.</p>
+                    <p>Shopping your own parts you have the freedom to customize builds and re-use parts you already have.</p>
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@ Template: page
         <h2 class="subtitle has-text-centered">For each requirement and budget</h2>
         <p>&nbsp;</p>
         <div class="pricing-table is-comparative columns is-multiline is-mobile">
-            
+
             <div class="pricing-plan is-one-fifth-desktop is-one-third-tablet column" style="padding:0;">
                 <div class="plan-header has-text-info">
                     Box s<br>
@@ -58,13 +58,15 @@ Template: page
                     <div class="plan-item">Raspberry Pi / ODROID</div>
                     <div class="plan-item">On-chip graphics</div>
                 </div>
-                <div class="plan-price has-text-grey-dark"><span class="plan-price-amount is-size-6"><span class="has-text-grey-light">&lt;</span> 150 €</span></div>
                 <div class="plan-footer">
                     <div class="field" style="justify-content: center;">
-                            <button class="button modal-button is-dark" onclick="openModal('box-s-parts-list')">
-                                <span class="icon"><i class="fa fa-clipboard-list"></i></span><span>Parts</span>
+                            <button class="button modal-button is-dark" onclick="openModal('box-s-parts-list')" style="width:100%;">
+                                <span class="icon"><i class="fa fa-wrench"></i></span><span>Build</span>
                             </button>
                     </div>
+                </div>
+                <div class="has-text-grey-dark columns is-mobile is-marginless has-text-centered">
+                    <div class="column"><span class="has-text-grey-light">&lt;</span> <strong>150 €</strong></div>
                 </div>
             </div>
             
@@ -80,20 +82,23 @@ Template: page
                     <div class="plan-item">Celeron / Intel Core i3</div>
                     <div class="plan-item">Intel HD graphics</div>
                 </div>
-                <div class="plan-price has-text-grey-dark"><span class="plan-price-amount is-size-6"><span class="has-text-grey-light">≈</span> 500 €</span></div>
                 <div class="plan-footer">
                     <div class="field has-addons" style="justify-content: center;">
-                        <p class="control">
-                            <button class="button modal-button is-primary tooltip" data-tooltip="No partner yet" disabled>
+                        <p class="control" style="width:50%; margin-right:0">
+                            <button class="button modal-button is-primary tooltip" data-tooltip="No partner yet" disabled style="width:100%;">
                                 <span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Buy</span>
                             </button>
                         </p>
-                        <p class="control">
-                            <button class="button modal-button is-dark" onclick="openModal('box-m-parts-list')">
-                                <span class="icon"><i class="fa fa-clipboard-list"></i></span><span>Parts</span>
+                        <p class="control" style="width:50%; margin-right:0">
+                            <button class="button modal-button is-dark" onclick="openModal('box-m-parts-list')" style="width:100%;">
+                                <span class="icon"><i class="fa fa-wrench"></i></span><span>Build</span>
                             </button>
                         </p>
                     </div>
+                </div>
+                <div class="has-text-grey-dark columns is-mobile is-marginless has-text-centered">
+                    <div class="column"><span class="has-text-grey-light">–</span></div>
+                    <div class="column"><strong>500 €</strong></div>
                 </div>
             </div>
             
@@ -109,20 +114,23 @@ Template: page
                     <div class="plan-item">Intel Core i3</div>
                     <div class="plan-item">Intel HD graphics</div>
                 </div>
-                <div class="plan-price has-text-grey-dark"><span class="plan-price-amount is-size-6"><span class="has-text-grey-light">≈</span> 650 €</span></div>
                 <div class="plan-footer">
                     <div class="field has-addons" style="justify-content: center;">
-                        <p class="control">
-                            <button class="button modal-button is-danger tooltip" data-tooltip="No partner yet" disabled>
+                        <p class="control" style="width:50%; margin-right:0">
+                            <button class="button modal-button is-danger" onclick="openModal('rack-m-partners')" style="width:100%;">
                                 <span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Buy</span>
                             </button>
                         </p>
-                        <p class="control">
-                            <button class="button modal-button is-dark" onclick="openModal('rack-m-parts-list')">
-                                <span class="icon"><i class="fa fa-clipboard-list"></i></span><span>Parts</span>
+                        <p class="control" style="width:50%; margin-right:0">
+                            <button class="button modal-button is-dark" onclick="openModal('rack-m-parts-list')" style="width:100%;">
+                                <span class="icon"><i class="fa fa-wrench"></i></span><span>Build</span>
                             </button>
                         </p>
                     </div>
+                </div>
+                <div class="has-text-grey-dark columns is-mobile is-marginless has-text-centered">
+                    <div class="column"><strong>925 €</strong></div>
+                    <div class="column"><strong>630 €</strong></div>
                 </div>
             </div>
             
@@ -138,20 +146,23 @@ Template: page
                     <div class="plan-item">Intel Core i5</div>
                     <div class="plan-item">Nvidia Quadro</div>
                 </div>
-                <div class="plan-price has-text-grey-dark"><span class="plan-price-amount is-size-6"><span class="has-text-grey-light">≈</span> 1450 €</span></div>
                 <div class="plan-footer">
                     <div class="field has-addons" style="justify-content: center;">
-                        <p class="control">
-                            <button class="button modal-button is-danger" onclick="openModal('rack-l-partners')">
+                        <p class="control" style="width:50%; margin-right:0">
+                            <button class="button modal-button is-danger" onclick="openModal('rack-l-partners')" style="width:100%;">
                                 <span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Buy</span>
                             </button>
                         </p>
-                        <p class="control">
-                            <button class="button modal-button is-dark" onclick="openModal('rack-l-parts-list')">
-                                <span class="icon"><i class="fa fa-clipboard-list"></i></span><span>Parts</span>
+                        <p class="control" style="width:50%; margin-right:0">
+                            <button class="button modal-button is-dark" onclick="openModal('rack-l-parts-list')" style="width:100%;">
+                                <span class="icon"><i class="fa fa-wrench"></i></span><span>Build</span>
                             </button>
                         </p>
                     </div>
+                </div>
+                <div class="has-text-grey-dark columns is-mobile is-marginless has-text-centered">
+                    <div class="column"><strong>1.747 €</strong></div>
+                    <div class="column"><strong>1.445 €</strong></div>
                 </div>
             </div>
             
@@ -167,23 +178,25 @@ Template: page
                     <div class="plan-item">Intel Core i7</div>
                     <div class="plan-item">Nvidia Quadro</div>
                 </div>
-                <div class="plan-price has-text-grey-dark"><span class="plan-price-amount is-size-6"><span class="has-text-grey-light">≈</span> 2050 €</span></div>
                 <div class="plan-footer">
                     <div class="field has-addons" style="justify-content: center;">
-                        <p class="control">
-                            <button class="button modal-button is-danger" onclick="openModal('rack-xl-partners')">
+                        <p class="control" style="width:50%; margin-right:0">
+                            <button class="button modal-button is-danger" onclick="openModal('rack-xl-partners')" style="width:100%;">
                                 <span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Buy</span>
                             </button>
                         </p>
-                        <p class="control">
-                            <button class="button modal-button is-dark" onclick="openModal('rack-xl-parts-list')">
-                                <span class="icon"><i class="fa fa-clipboard-list"></i></span><span>Parts</span>
+                        <p class="control" style="width:50%; margin-right:0">
+                            <button class="button modal-button is-dark" onclick="openModal('rack-xl-parts-list')" style="width:100%;">
+                                <span class="icon"><i class="fa fa-wrench"></i></span><span>Build</span>
                             </button>
                         </p>
                     </div>
                 </div>
+                <div class="has-text-grey-dark columns is-mobile is-marginless has-text-centered">
+                    <div class="column"><strong>2.246 €</strong></div>
+                    <div class="column"><strong>2.030 €</strong></div>
+                </div>
             </div>
-
 
         </div>
     </div>
@@ -192,14 +205,12 @@ Template: page
 <section class="section is-medium">
     <div class="container content">
         <a name="Requirements"></a>
-        <h1 class="title">Requirements</h1>
-        <p>All boxes should meet these requirements or at least have a very good reason not to.<br>
+        <h1 class="title has-text-centered">Requirements</h1>
+        <p class="subtitle has-text-centered">All boxes should meet these requirements or at least have a very good reason not to.<br>
         If you’re a vendor and want to sell Tooloop Boxes? Cool, please do have a look at the following list and <a href="https://www.vollstock.de">get in contact</a>.</p>
 
-        <hr>
-
-        <div class="columns ">
-            <div class="column is-half content">
+        <div class="columns is-centered" style="margin-top:3rem;">
+            <div class="column is-4 is-offset-1 content">
                 <h3><span class="icon"><i class="fas fa-clipboard-check has-text-primary"></i></span> Chassis</h3>
                 <ul>
                     <li><strong>Rack-mountable</strong> A computer belongs in rack. Only very rarerly there's a reason to put it elsewhere. It’s safe and it’s easy to reach and maintain.</li>
@@ -209,7 +220,7 @@ Template: page
                     <li><strong>Silent</strong> would be nice. In a museum, a showroom or in a theatre we want to be as silent as possible. Not on the expense of bad cooling, though.</li>
                 </ul>
             </div>
-            <div class="column is-half content">
+            <div class="column is-4 is-offset-1 content">
                 <h3><span class="icon"><i class="fas fa-clipboard-check has-text-primary"></i></span> Longevity</h3>
                 <p>Industrial and server grade components are built to last. They withstand high temperatures, run 24/7 and you can still purchase them in a year or two.</p>
                 <h3><span class="icon"><i class="fas fa-clipboard-check has-text-primary"></i></span> SSD-Drive</h3>
@@ -247,7 +258,7 @@ Template: page
                 <tr>
                     <th>Board</th>
                     <td><a href="http://www.hardkernel.com/main/shop/good_list.php?lang=en">ODROID-XU4</a></td>
-                    <td class="has-text-centered"><span class="icon"><i class="fa fa-check has-text-success"></i></span></td>
+                    <td class="has-text-centered"><span class="icon tooltip" data-tooltip="No wake on lan"><i class="fa fa-minus has-text-danger"></i></span></td>
                     <td class="has-text-right">80 €</td>
                 </tr>
                 <tr>
@@ -290,7 +301,7 @@ Template: page
                 <tr>
                     <th>Board</th>
                     <td><a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/">Raspberry Pi 3 Model B+</a></td>
-                    <td class="has-text-centered"><span class="icon"><i class="fa fa-check has-text-success"></i></span></td>
+                    <td class="has-text-centered"><span class="icon tooltip" data-tooltip="No wake on lan"><i class="fa fa-minus has-text-danger"></i></span></td>
                     <td class="has-text-right">37 €</td>
                 </tr>
                 <tr>
@@ -370,7 +381,7 @@ Template: page
                 <tr>
                     <th>Case</th>
                     <td>e.g.<a href="https://buy.advantech.eu/Chassis/Embedded-Mini-ITX-Chassis/model-AIMB-B2000-15ZE.htm">Advantech AIMB-B2000-15ZE</a><br>150 W PSU</td>
-                    <td class="has-text-centered"><span class="icon tooltip" <td class="has-text-centered"><span class="icon"><i class="fa fa-check has-text-success"></i></span></td>
+                    <td class="has-text-centered"><span class="icon"><i class="fa fa-check has-text-success"></i></span></td>
                     <td class="has-text-right">130 €</td>
                 </tr>
                 <tr>
@@ -493,6 +504,37 @@ Template: page
   </div>
 </div>
 
+<div id="rack-m-partners" class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Buy Rack M</p>
+      <button class="delete" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+        <div class="columns">
+            <div class="column is-5">
+                <figure>
+                    <img id="spectra-rack-m" src="%base_url%/assets/boxes/spectra-rack-m.jpg">
+                </figure>
+            </div>
+            <div class="column is-7">
+                <img src="%base_url%/assets/boxes/spectra-logo.svg" style="width: 6rem; margin-bottom: 1rem">
+                
+                <h2 class="title is-6">GHI-110/D3445-S/D103668 V1.0</h2>
+                <h3 class="is-small subtitle is-6">1&nbsp;U, Intel&nbsp;i3-6100TE&nbsp;4&nbsp;×&nbsp;2.7&nbsp;GHz, 4&nbsp;GB, 128&nbsp;GB&nbsp;SSD</h3>
+                <div class="content">
+                    <p><strong class="is-size-5 has-text-link">925&nbsp;€</strong></p>
+                    <p>Based on Intels 6th generation Skylake architecture, the system features Intel HD 530 graphics.</p>
+                    <p>The CPU consumes only 35 W and thus generates very little heat. The chassis is not equipped with dust filters to further optimize air flow which needs to be considered.</p>
+                    <p><a href="#" class="button is-primary"><span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Visit product page</span></a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+  </div>
+</div>
+
 <!-- ###################################################################### -->
 <!-- RACK L                                                                 -->
 <!-- ###################################################################### -->
@@ -581,7 +623,7 @@ Template: page
                 <th></th>
                 <th></th>
                 <th></th>
-                <th class="has-text-right">1445 €</th>
+                <th class="has-text-right">1.445 €</th>
             </tfoot>
         </table>
         <p id="footnote-price" class="has-text-grey"><em><strong>(1)</strong> Prices are estimates and may vary depending on where you source the parts.</em></p>
@@ -597,39 +639,25 @@ Template: page
       <button class="delete" aria-label="close"></button>
     </header>
     <section class="modal-card-body">
-        <table class="table is-striped">
-            <thead>
-                <tr>
-                    <th>Image</th>
-                    <th>Description</th>
-                    <th>Vendor</th>
-                    <th>Price</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <div class="product-galery">
-                            <figure>
-                                <img id="spectra-box-l" src="%base_url%/assets/boxes/spectra-rack-l-1.jpg">
-                            </figure>
-                            <ul>
-                                <li><a onmouseover="changeImage('spectra-box-l', '%base_url%/assets/boxes/spectra-rack-l-1.jpg')">•</a></li>
-                                <li><a onmouseover="changeImage('spectra-box-l', '%base_url%/assets/boxes/spectra-rack-l-2.jpg')">•</a></li>
-                                <li><a onmouseover="changeImage('spectra-box-l', '%base_url%/assets/boxes/spectra-rack-l-3.jpg')">•</a></li>
-                            </ul>
-                        </div>
-                    </td>
-                    <td>
-                        <strong>Spectra-Rack GHI-210/D3445-S/D103668 V1.0</strong><br>
-                        2U, i5-7600, 8GB, 128GB SSD, Nvidia Quadro P2000
-                    </td>
-                    <td><a href="https://www.spectra.de/"><img src="%base_url%/assets/boxes/spectra-logo.svg" style="width: 6rem;"></a></td>
-                    <th>1660&nbsp;€</th>
-                    <td><a href="#" class="button is-primary is-small"><span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Buy</span></a></td>
-                </tr>
-            </tbody>
+        <div class="columns">
+            <div class="column is-5">
+                <figure>
+                    <img id="spectra-rack-l" src="%base_url%/assets/boxes/spectra-rack-l-1.jpg">
+                </figure>
+            </div>
+            <div class="column is-7">
+                <img src="%base_url%/assets/boxes/spectra-logo.svg" style="width: 6rem; margin-bottom: 1rem">
+                
+                <h2 class="title is-6">GHI-210/D3445-S/D103668 V1.0</h2>
+                <h3 class="is-small subtitle is-6">2&nbsp;U, Intel&nbsp;i5-6500&nbsp;4&nbsp;×&nbsp;3.6&nbsp;GHz, 8&nbsp;GB, 256&nbsp;GB&nbsp;SSD, Nvidia&nbsp;Quadro&nbsp;P2000</h3>
+                <div class="content">
+                    <p><strong class="is-size-5 has-text-link">1.747&nbsp;€</strong></p>
+                    <p>No compromise was made building this system. Serious CPU and graphics power for any kind of project.</p>
+                    <p>The chassis has enought airflow for a powerful graphics card and is equipped with dust filters.</p>
+                    <p><a href="#" class="button is-primary"><span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Visit product page</span></a></p>
+                </div>
+            </div>
+        </div>
     </section>
   </div>
 </div>
@@ -716,7 +744,7 @@ Template: page
                 <th></th>
                 <th></th>
                 <th></th>
-                <th class="has-text-right">2030 €</th>
+                <th class="has-text-right">2.030 €</th>
             </tfoot>
         </table>
         <p id="footnote-price" class="has-text-grey"><em><strong>(1)</strong> Prices are estimates and may vary depending on where you source the parts.</em></p>
@@ -732,28 +760,25 @@ Template: page
       <button class="delete" aria-label="close"></button>
     </header>
     <section class="modal-card-body">
-        <table class="table is-striped">
-            <thead>
-                <tr>
-                    <th>Image</th>
-                    <th>Description</th>
-                    <th>Vendor</th>
-                    <th>Price</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><img src="%base_url%/assets/boxes/spectra-rack-xl.jpg"></td>
-                    <td>
-                        <strong>Spectra Rack 42300B/D3445-S/D103668 V1.0</strong><br>
-                        4U, i7-7700, 16GB, 256GB SSD, Nvidia Quadro P4000
-                    </td>
-                    <td><a href="https://www.spectra.de/"><img src="%base_url%/assets/boxes/spectra-logo.svg" style="width: 6rem;"></a></td>
-                    <th>2300&nbsp;€</th>
-                    <td><a href="#" class="button is-primary is-small"><span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Buy</span></a></td>
-                </tr>
-            </tbody>
+        <div class="columns">
+            <div class="column is-5">
+                <figure>
+                    <img id="spectra-rack-xl" src="%base_url%/assets/boxes/spectra-rack-xl.jpg">
+                </figure>
+            </div>
+            <div class="column is-7">
+                <img src="%base_url%/assets/boxes/spectra-logo.svg" style="width: 6rem; margin-bottom: 1rem">
+                
+                <h2 class="title is-6">42300B/D3445-S/D103668 V1.0</h2>
+                <h3 class="is-small subtitle is-6">4&nbsp;U, Intel&nbsp;i7-6700&nbsp;8&nbsp;×&nbsp;3.4&nbsp;GHz, 16&nbsp;GB, 256&nbsp;GB&nbsp;SSD, Nvidia&nbsp;Quadro&nbsp;P4000</h3>
+                <div class="content">
+                    <p><strong class="is-size-5 has-text-link">2.246&nbsp;€</strong></p>
+                    <p>No compromise was made building this system. Serious CPU and graphics power for any kind of project.</p>
+                    <p>The chassis has very good airflow and offers enough space for every component you need. It’s also equipped with dust filters.</p>
+                    <p><a href="#" class="button is-primary"><span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Visit product page</span></a></p>
+                </div>
+            </div>
+        </div>
     </section>
   </div>
 </div>
