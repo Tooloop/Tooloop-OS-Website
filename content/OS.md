@@ -4,26 +4,25 @@ Template: page
 ---
 
 <section class="section hero is-light is-bold">
-    <div class="container">
+    <div class="container has-text-centered">
         <div class="hero-body">
             <h1 class="title has-text-centered">Tooloop OS</h1>
-            <h2 class="subtitle has-text-centered">Industrial grade hardware, built to last.</h2>
+            <h2 class="subtitle has-text-centered">Making your life easier.</h2>
         </div>
-    </div>
-    <div class="container">
-        <div class="columns ">
+        <img src="%base_url%/assets/system_overview.png" style="width: 100%;max-width: 768px; margin-bottom: 3rem">
+        <div class="columns content has-text-left">
             <div class="column">
-                <img src="%base_url%/assets/system_overview.png">
+                Tooloop OS is based on a minimal installation of <a href="https://www.ubuntu.com/server" class="has-text-link">Ubuntu Server 16.04 LTS</a> and the super lightweight window manager <a href="http://www.openbox.org" class="has-text-link">Openbox</a>. Both are customized to fit the needs of public multimedia installations.
             </div>
             <div class="column">
-                <div class="content">
-                    <p>Tooloop OS is based on a minimal installation of <a href="https://www.ubuntu.com/server" class="has-text-link">Ubuntu Server 16.04 LTS</a> and the super lightweight window manager <a href="http://www.openbox.org" class="has-text-link">Openbox</a>. Both are customized to fit the needs of public multimedia installations.<br>
-                    Many ideas of Tooloop OS are based on <a href="http://openframeworks.cc/ofBook/chapters/installation_up_4evr_linux.html" class="has-text-link">this article</a> in the openframeworks book on keeping a linux installation up forever.
-                    </p>
-                    <p>However Tooloop tries to take the aproach one step further. It also comes with a set of neat management utilities that will make you life much easier.</p>
-                    <p>Tooloop OS comes pre-installed on machines sold by our partners. If you’ve built a machine your own, please see follow the link.</p>
-                    <p><a class="button is-primary" href="Manual/Installation/Installation"><span class="icon"><i class="fa fa-book has-text-white"></i></span> <span>Installing Tooloop OS</span></a></p>
-                </div>
+                <p>Many ideas of Tooloop OS are based on <a href="http://openframeworks.cc/ofBook/chapters/installation_up_4evr_linux.html" class="has-text-link">this article</a> in the openframeworks book on keeping a linux installation up forever.</p>
+            </div>
+            <div class="column">
+                <p>However Tooloop tries to take the aproach one step further. It also comes with a set of neat management utilities that will make your life much easier.</p>
+            </div>
+            <div class="column">
+                <p>Tooloop OS comes pre-installed on machines sold by our partners. If you’ve built a machine yourself, please follow the link.</p>
+                <p><a class="button is-primary" href="Manual/Installation/Installation"><span class="icon"><i class="fa fa-book has-text-white"></i></span> <span>Installing Tooloop OS</span></a></p>
             </div>
         </div>
     </div>
@@ -44,7 +43,7 @@ Template: page
                 <div class="content">
                     <ul class="icon-list">
                         <li><i class="fa fa-check has-text-primary"></i> Quiet boot without logos or clutter</li>
-                        <li><i class="fa fa-check has-text-primary"></i> No notifications center</li>
+                        <li><i class="fa fa-check has-text-primary"></i> No notifications</li>
                         <li><i class="fa fa-check has-text-primary"></i> Hidden mouse cursor</li>
                         <li><i class="fa fa-check has-text-primary"></i> Updates disabled</li>
                     </ul>
@@ -94,7 +93,7 @@ Template: page
 
 <section class="section is-medium">
     <div class="container">
-        <div class="columns " style="align-items: center;">
+        <div class="columns" style="align-items: center;">
             <div class="column is-4">
                 <h1 class="title">Easy to manage</h1>
                 <h2 class="subtitle">Everything under control</h2>
