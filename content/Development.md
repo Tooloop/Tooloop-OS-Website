@@ -8,7 +8,7 @@ Template: page
         <div class="container">
             <h1 class="title is-hidden-tablet">Let's do this</h1>
             <h2 class="subtitle is-hidden-tablet">Any help appreciated</h2>
-            <div class="columns is-centeredA">
+            <div class="columns is-centered">
                <!--  <div class="column">
                     <div class="videoWrapper">
                         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/r2CbbBLVaPk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
