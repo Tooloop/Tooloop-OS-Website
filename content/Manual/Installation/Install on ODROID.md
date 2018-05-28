@@ -10,8 +10,8 @@ In the [ODROID wiki](https://wiki.odroid.com/odroid-xu4/os_images/linux/ubuntu_4
 
 ***Ubuntu 16.04.X (YYYYMMDD) (MINIMAL, BARE OS)***
 
-The date and version might change over time).  
-Flash it on your eMMC module or SD card and boot from it.
+The date and version might have changed).  
+[Flash it on your eMMC module or SD card](https://etcher.io/) and boot from it.
 
 
 # Create the tooloop user

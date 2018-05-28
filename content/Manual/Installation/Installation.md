@@ -6,8 +6,8 @@ Index: 01
 
 # Download Ubuntu
 
-- Download [Ubuntu Server 16.04](https://www.ubuntu.com/download/server).
-- [Make a bootable USB drive](https://help.ubuntu.com/community/Installation/FromUSBStick).
+- Download the [Ubuntu Server 16.04 64-bit ISO](http://releases.ubuntu.com/16.04/).
+- [Make a bootable USB drive](https://etcher.io/).
 - Now boot from your USB drive. You probably will have to set this up in you BIOS.
 
 <article class="message is-warning">
