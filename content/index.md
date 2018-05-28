@@ -2,6 +2,7 @@
 Description: Tooloop open media server framework
 Template: index
 HeroImages: 
+    # - {image: rack-boxes.jpg, credits: '' }
     - {image: yatharth-roy-vibhakar-471414-unsplash.jpg, credits: Photo by <a href="https://unsplash.com/photos/vJQCyAOegiI">yatharth roy vibhakar</a> on <a href="https://unsplash.com">Unsplash</a> }
     - {image: efe-kurnaz-315384-unsplash.jpg, credits: Photo by <a href="https://unsplash.com/photos/RnCPiXixooY">Efe Kurnaz</a> on <a href="https://unsplash.com">Unsplash</a> }
 ---
@@ -13,7 +14,7 @@ HeroImages:
                 <img src="%base_url%/assets/1-2-3-animation.gif" />
             </div>
             <div class="column is-half">
-                <h1 class="title">About</h1>
+                <!-- <h1 class="title">About</h1> -->
                 <h2 class="subtitle">Tooloop is a platform for media artists to safely and easily develop and deploy multimedia installations.</h2>
                 <ul class="steps is-vertical">
                     <li class="steps-segment">
@@ -43,11 +44,11 @@ HeroImages:
     </div>
 </section>
 
-<section class="section hero is-dark is-bold has-text-centered">
+<!-- <section class="section hero is-dark is-bold has-text-centered">
     <div class="container content">
         <a href="javascript:loadIntroVideo()" class="is-size-4"><i class="fa fa-play-circle has-text-danger"></i> Watch introduction</a>
     </div>
-</section>
+</section> -->
 
 <div id="intro-video-modal" class="modal">
     <div class="modal-background"></div>

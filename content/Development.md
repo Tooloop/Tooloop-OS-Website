@@ -8,14 +8,13 @@ Template: page
         <div class="container">
             <h1 class="title is-hidden-tablet">Let's do this</h1>
             <h2 class="subtitle is-hidden-tablet">Any help appreciated</h2>
-            <div class="columns ">
-                <div class="column">
+            <div class="columns is-centeredA">
+               <!--  <div class="column">
                     <div class="videoWrapper">
-                        <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/r2CbbBLVaPk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NpEaa2P7qZI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/r2CbbBLVaPk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
-                </div>
-                <div class="column">
+                </div> -->
+                <div class="column is-6">
                     <h1 class="title is-hidden-mobile">Let's do this</h1>
                     <h2 class="subtitle is-hidden-mobile">Any help appreciated</h2>
                     <div class="content">
