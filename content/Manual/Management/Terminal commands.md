@@ -1,7 +1,7 @@
 ---
-Title: Working with the terminal
+Title: Terminal commands
 Template: docs
-Index: 14
+Index: 35
 ---
 
 # SSH
