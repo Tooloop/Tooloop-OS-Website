@@ -39,6 +39,21 @@ Index: 34.5
     GET /tooloop/api/v1.0/services/ssh/disable
 
 
+## GET remote configuration status
+
+    GET /tooloop/api/v1.0/services/remoteconfiguration
+
+
+## Enable remote configuration status
+
+    GET /tooloop/api/v1.0/services/remoteconfiguration/enable
+
+
+## Disable remote configuration status
+
+    GET /tooloop/api/v1.0/services/remoteconfiguration/disable
+
+
 ## Get screenshot service status
 
     GET /tooloop/api/v1.0/services/screenshots
