@@ -24,7 +24,7 @@ Description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu
 
 # Set hostname
 
-    PUT /tooloop/api/v1.0/system/hostname'
+    PUT /tooloop/api/v1.0/system/hostname
 
 
 # Get system usage
@@ -70,3 +70,31 @@ Description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu
 # Set password
 
     PUT  /tooloop/api/v1.0/system/password
+
+
+# Get audio volume
+
+    GET /tooloop/api/v1.0/system/audiovolume
+
+
+# Set audio volume
+
+    PUT /tooloop/api/v1.0/system/audiovolume
+
+
+# Mute/unmute audio
+
+    PUT /tooloop/api/v1.0/system/audiomute
+
+
+# Get display state
+
+    GET /tooloop/api/v1.0/system/displaystate
+
+**Returns**
+<pre><code class="language-json">{ 'Display' : 'on' }</code></pre>
+
+
+# Turn display on and off
+
+    PUT /tooloop/api/v1.0/system/displaystate
