@@ -44,15 +44,26 @@ HeroImages:
     </div>
 </section>
 
-<!-- <section class="section hero is-dark is-bold has-text-centered">
+<section class="section hero is-dark is-bold">
     <div class="container content">
-        <a href="javascript:loadIntroVideo()" class="is-size-4"><i class="fa fa-play-circle has-text-danger"></i> Watch introduction</a>
+        <div class="columns is-centered" style="align-items: center;">
+            <div class="column is-3">
+                <a href="javascript:loadIntroVideo()" class="is-size-4">
+                    <figure class="image is-marginless">
+                        <img src="%base_url%/assets/intro-video-preview.jpg">
+                    </figure>
+                </a>
+            </div>
+            <div class="column has-text-centered is-narrow">
+                <a href="javascript:loadIntroVideo()" class="is-size-4"><i class="fa fa-play-circle has-text-danger"></i> Watch introduction</a>
+            </div>
+        </div>
     </div>
-</section> -->
+</section>
 
 <div id="intro-video-modal" class="modal">
     <div class="modal-background"></div>
-    <div class="modal-content">
+    <div class="modal-content" style="overflow: inherit;">
             <div class="videoWrapper">
             </div>
     </div>
@@ -61,8 +72,8 @@ HeroImages:
 <script type="text/javascript">
     function loadIntroVideo () {
         var videoWrapper = document.querySelector('#intro-video-modal .videoWrapper');
-        // videoWrapper.innerHTML = '<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/r2CbbBLVaPk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
-        videoWrapper.innerHTML = '<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NpEaa2P7qZI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+        /*videoWrapper.innerHTML = '<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NpEaa2P7qZI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';*/
+        videoWrapper.innerHTML = '<video controls autoplay><source src="%base_url%/assets/intro-video.mp4" type="video/mp4"></video>';
 
         openModal('intro-video-modal');
     }

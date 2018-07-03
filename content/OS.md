@@ -56,7 +56,7 @@ Template: page
 <section class="section hero is-light">
     <div class="container has-text-centered">
         <h1 class="title">Lightweight</h1>
-        <h2 class="subtitle">All power for you</h2>
+        <h2 class="subtitle">All power to you</h2>
         <div class="level" style="margin: 3rem 0;">
             <div class="level-item">
                 <div>

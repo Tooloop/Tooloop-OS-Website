@@ -50,7 +50,7 @@ Template: page
             <div class="pricing-plan is-one-fifth-desktop is-one-third-tablet column" style="padding:0;">
                 <div class="plan-header has-text-info">
                     Box s<br>
-                    <img src="%base_url%/assets/boxes/box-s.png" alt="Tooloop Box S" style="width: 100px; margin-top:1rem;">
+                    <img src="%base_url%/assets/boxes/box-s.png" alt="Tooloop Box S" style="height: 120px;">
                 </div>
                 <div class="plan-items">
                     <div class="plan-item">Super small and darn cheap.</div>
@@ -74,7 +74,7 @@ Template: page
             <div class="pricing-plan is-one-fifth-desktop is-one-third-tablet column" style="padding:0;">
                 <div class="plan-header has-text-primary">
                     Box M<br>
-                    <img src="%base_url%/assets/boxes/box-m.png" alt="Tooloop Box M" style="width: 100px; margin-top:1rem;">
+                    <img src="%base_url%/assets/boxes/box-m.png" alt="Tooloop Box M" style="height: 120px;">
                 </div>
                 <div class="plan-items">
                     <div class="plan-item"><span style="width: 100%;display: inline-block;">Small box.</span></div>
@@ -106,7 +106,7 @@ Template: page
             <div class="pricing-plan is-one-fifth-desktop is-one-third-tablet column" style="padding:0;">
                 <div class="plan-header has-text-danger">
                     Rack M<br>
-                    <img src="%base_url%/assets/boxes/rack-m.png" alt="Tooloop Rack M" style="width: 100px; margin-top:1rem;">
+                    <img src="%base_url%/assets/boxes/rack-m.png" alt="Tooloop Rack M" style="height: 120px;">
                 </div>
                 <div class="plan-items">
                     <div class="plan-item"><span style="width: 100%;display: inline-block;">Small and sweet 1U rack system.</span></div>
@@ -138,7 +138,7 @@ Template: page
             <div class="pricing-plan is-one-fifth-desktop is-one-third-tablet column" style="padding:0;">
                 <div class="plan-header has-text-danger">
                     Rack L<br>
-                    <img src="%base_url%/assets/boxes/rack-l.png" alt="Tooloop Rack L" style="width: 100px; margin-top:1rem;">
+                    <img src="%base_url%/assets/boxes/rack-l.png" alt="Tooloop Rack L" style="height: 120px;">
                 </div>
                 <div class="plan-items">
                     <div class="plan-item"><span style="width: 100%;display: inline-block;">Serious CPU and GPU power. 2U rack space.</span></div>
@@ -162,7 +162,7 @@ Template: page
                 </div>
                 <div class="has-text-grey-dark columns is-mobile is-marginless has-text-centered">
                     <div class="column"><strong>1.747 €</strong></div>
-                    <div class="column"><strong>1.445 €</strong></div>
+                    <div class="column"><strong>1.390 €</strong></div>
                 </div>
             </div>
             
@@ -170,7 +170,7 @@ Template: page
             <div class="pricing-plan is-one-fifth-desktop is-one-third-tablet column" style="padding:0;">
                 <div class="plan-header has-text-danger">
                     Rack XL<br>
-                    <img src="%base_url%/assets/boxes/rack-xl.png" alt="Tooloop Rack XL" style="width: 100px; margin-top:1rem;">
+                    <img src="%base_url%/assets/boxes/rack-xl.png" alt="Tooloop Rack XL" style="height: 120px;">
                 </div>
                 <div class="plan-items">
                     <div class="plan-item"><span style="width: 100%;display: inline-block;">The <a href="http://doom.wikia.com/wiki/BFG9000" class="has-text-link">BFG9000</a> of media servers. 4U rack space.</span></div>
@@ -194,7 +194,7 @@ Template: page
                 </div>
                 <div class="has-text-grey-dark columns is-mobile is-marginless has-text-centered">
                     <div class="column"><strong>2.246 €</strong></div>
-                    <div class="column"><strong>2.030 €</strong></div>
+                    <div class="column"><strong>1.912 €</strong></div>
                 </div>
             </div>
 
@@ -386,13 +386,13 @@ Template: page
                 </tr>
                 <tr>
                     <th>CPU (Option 1)</th>
-                    <td><a href="https://ark.intel.com/de/products/122825/Intel-Celeron-Processor-G3930TE-2M-Cache-2_70-GHz">Intel Celeron G3930TE 2 × 2.70GHz</a><br>Intel HD-Grafik 610</td>
+                    <td><a href="https://ark.intel.com/de/products/122825/Intel-Celeron-Processor-G3930TE-2M-Cache-2_70-GHz">Intel Celeron G3930TE 2&nbsp;×&nbsp;2.70GHz</a><br>Intel HD-Grafik 610</td>
                     <td class="has-text-centered"><span class="icon"><i class="fa fa-check has-text-success"></i></span></td>
                     <td class="has-text-right">45 €</td>
                 </tr>
                 <tr>
                     <th>CPU (Option 2)</th>
-                    <td><a href="https://ark.intel.com/products/97485/Intel-Core-i3-7100T-Processor-3M-Cache-3_40-GHz">Intel Core i3-7100T 2 × 3.40GHz</a><br>Intel HD Graphics 630</td>
+                    <td><a href="https://ark.intel.com/products/97485/Intel-Core-i3-7100T-Processor-3M-Cache-3_40-GHz">Intel Core i3-7100T 2&nbsp;×&nbsp;3.40GHz</a><br>Intel HD Graphics 630</td>
                     <td class="has-text-centered"><span class="icon"><i class="fa fa-check has-text-success"></i></span></td>
                     <td class="has-text-right">(110 €)</td>
                 </tr>
@@ -455,7 +455,7 @@ Template: page
                 <tr>
                     <th>CPU</th>
                     <td>
-                        <a href="https://ark.intel.com/products/97485/Intel-Core-i3-7100T-Processor-3M-Cache-3_40-GHz">Intel Core i3-7100T 2 × 3.40GHz</a><br>
+                        <a href="https://ark.intel.com/products/97485/Intel-Core-i3-7100T-Processor-3M-Cache-3_40-GHz">Intel Core i3-7100T 2&nbsp;×&nbsp;3.40GHz</a><br>
                         Intel HD Graphics 630
                     </td>
                     <td class="has-text-centered"><span class="icon"><i class="fa fa-check has-text-success"></i></span></td>
@@ -515,19 +515,33 @@ Template: page
         <div class="columns">
             <div class="column is-5">
                 <figure>
-                    <img id="spectra-rack-m" src="%base_url%/assets/boxes/spectra-rack-m.jpg">
+                    <img id="spectra-rack-m" src="%base_url%/assets/boxes/spectra-rack-m.jpg" style="padding: 2rem 1rem 0 0;">
                 </figure>
             </div>
             <div class="column is-7">
                 <img src="%base_url%/assets/boxes/spectra-logo.svg" style="width: 6rem; margin-bottom: 1rem">
                 
-                <h2 class="title is-6">GHI-110/D3445-S/D103668 V1.0</h2>
-                <h3 class="is-small subtitle is-6">1&nbsp;U, Intel&nbsp;i3-6100TE&nbsp;4&nbsp;×&nbsp;2.7&nbsp;GHz, 4&nbsp;GB, 128&nbsp;GB&nbsp;SSD</h3>
+                <h2 class="title is-5">RACK&nbsp;M, 19"&nbsp;1U, CORE&nbsp;i3, INTEL&nbsp;HD&nbsp;GRAPHICS</h2>
+                <h3 class="title has-text-link">925&nbsp;€</h3>
+
+                <div class="buttons">
+                    <a href="%base_url%/assets/boxes/Datenblatt-Rack M_1.0.pdf" class="button is-light"><span class="icon"><i class="fa fa-file-alt"></i></span><span>Datasheet</span></a>
+                    <a href="https://www.spectra.de/en/" class="button is-primary"><span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Buy from spectra</span></a>
+                </div>
                 <div class="content">
-                    <p><strong class="is-size-5 has-text-link">925&nbsp;€</strong></p>
                     <p>Based on Intels 6th generation Skylake architecture, the system features Intel HD 530 graphics.</p>
-                    <p>The CPU consumes only 35 W and thus generates very little heat. The chassis is not equipped with dust filters to further optimize air flow which needs to be considered.</p>
-                    <p><a href="#" class="button is-primary"><span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Visit product page</span></a></p>
+                    <p>Consuming as little as 35 W, the CPU generates very little heat. The chassis is not equipped with dust filters to further optimize air flow which needs to be considered.</p>
+                    <strong>Features</strong>
+                    <ul>
+                        <li>Robust 19", 1U industrial workstation</li>
+                        <li>Steel chassis with 400 W PSU</li>
+                        <li>Intel Core i3-6100TE CPU, 4 GB RAM</li>
+                        <li>128 GB SSD</li>
+                        <li>Industrial mainboard with Intel H110 Express Chipset (Skylake)</li>
+                        <li>Intel HD 530 graphics</li>
+                        <li>2&nbsp;×&nbsp;Intel GbE LAN</li>
+                        <li>External Connectors: 4&nbsp;×&nbsp;DP, 2&nbsp;×&nbsp;LAN, 2&nbsp;×&nbsp;USB3.0, 4&nbsp;×&nbsp;USB2.0, Audio Mic. In / Line in / Line out, 2&nbsp;×&nbsp;PS/2</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -569,7 +583,7 @@ Template: page
                 <tr>
                     <th>CPU</th>
                     <td>
-                        <a href="https://ark.intel.com/products/97150/Intel-Core-i5-7600-Processor-6M-Cache-up-to-4_10-GHz">Intel Core i5 7600 4 × 3.50GHz</a>
+                        <a href="https://ark.intel.com/products/97150/Intel-Core-i5-7600-Processor-6M-Cache-up-to-4_10-GHz">Intel Core i5 7600 4&nbsp;×&nbsp;3.50GHz</a>
                     </td>
                     <td class="has-text-centered"><span class="icon"><i class="fa fa-check has-text-success"></i></span></td>
                     <td class="has-text-right">200 €</td>
@@ -583,14 +597,20 @@ Template: page
                 <tr>
                     <th>Chassis</th>
                     <td>
-                        <a href="https://www.spectra.de">Spectra GHI-210H, 350 W</a><br></td>
+                        <a href="http://www.chenbro.com/en-global/products/RackmountChassis/2U_Chassis/RM24100">Chenbro RM24100</a><br></td>
                     <td class="has-text-centered"><span class="icon"><i class="fa fa-check has-text-success"></i></span></td>
-                    <td class="has-text-right">255 €</td>
+                    <td class="has-text-right">130 €</td>
+                </tr>
+                <tr>
+                    <th>Power supply</th>
+                    <td>500 W</td>
+                    <td class="has-text-centered"><span class="icon"><i class="fa fa-check has-text-success"></i></span></td>
+                    <td class="has-text-right">70 €</td>
                 </tr>
                 <tr>
                     <th>Silent fans</th>
                     <td>
-                        <a href="https://noctua.at/en/nf-a8-pwm">3 &times; Noctua NF-A8 PWM, 80 mm</a><br></td>
+                        <a href="https://noctua.at/en/nf-a8-pwm">1 &times; Noctua NF-A8 PWM, 80 mm</a>,<br><a href="https://noctua.at/en/nf-a4x20-5v-pwm">2 &times; Noctua NF-A4x20 5V PWM, 40 mm</a></td>
                     <td class="has-text-centered"><span class="icon"><i class="fa fa-check has-text-success"></i></span></td>
                     <td class="has-text-right">45 €</td>
                 </tr>
@@ -623,7 +643,7 @@ Template: page
                 <th></th>
                 <th></th>
                 <th></th>
-                <th class="has-text-right">1.445 €</th>
+                <th class="has-text-right">1.390 €</th>
             </tfoot>
         </table>
         <p id="footnote-price" class="has-text-grey"><em><strong>(1)</strong> Prices are estimates and may vary depending on where you source the parts.</em></p>
@@ -642,19 +662,35 @@ Template: page
         <div class="columns">
             <div class="column is-5">
                 <figure>
-                    <img id="spectra-rack-l" src="%base_url%/assets/boxes/spectra-rack-l-1.jpg">
+                    <img id="spectra-rack-l" src="%base_url%/assets/boxes/spectra-rack-l.jpg" style="padding: 2rem 1rem 0 0;">
                 </figure>
             </div>
             <div class="column is-7">
                 <img src="%base_url%/assets/boxes/spectra-logo.svg" style="width: 6rem; margin-bottom: 1rem">
                 
-                <h2 class="title is-6">GHI-210/D3445-S/D103668 V1.0</h2>
-                <h3 class="is-small subtitle is-6">2&nbsp;U, Intel&nbsp;i5-6500&nbsp;4&nbsp;×&nbsp;3.6&nbsp;GHz, 8&nbsp;GB, 256&nbsp;GB&nbsp;SSD, Nvidia&nbsp;Quadro&nbsp;P2000</h3>
+                <h2 class="title is-5">RACK&nbsp;L, 19"&nbsp;2U, CORE&nbsp;i5, NVIDIA&nbsp;QUADRO&nbsp;P2000</h2>
+                <h3 class="title has-text-link">1.747&nbsp;€</h3>
+                
+                <div class="buttons">
+                    <a href="%base_url%/assets/boxes/Datenblatt-RackL-1_0.pdf" class="button is-light"><span class="icon"><i class="fa fa-file-alt"></i></span><span>Datasheet</span></a><br/>
+                    <a href="https://www.spectra.de/en/" class="button is-primary"><span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Buy from spectra</span></a>
+                </div>
+
                 <div class="content">
-                    <p><strong class="is-size-5 has-text-link">1.747&nbsp;€</strong></p>
-                    <p>No compromise was made building this system. Serious CPU and graphics power for any kind of project.</p>
-                    <p>The chassis has enought airflow for a powerful graphics card and is equipped with dust filters.</p>
-                    <p><a href="#" class="button is-primary"><span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Visit product page</span></a></p>
+                    <p>No compromise was made building this system. Serious CPU power and professional NVidia graphics will bring enough bang for any kind of project.</p>
+                    <p>The chassis has good airflow and is equipped with dust filters.</p>
+                    <strong>Features</strong>
+                    <ul>
+                        <li>Robust 19", 2U industrial workstation</li>
+                        <li>Steel chassis with 500 W PSU</li>
+                        <li>Intel Core i5-6500 CPU</li>
+                        <li>8 GB RAM</li>
+                        <li>256 GB SSD</li>
+                        <li>Industrial mainboard with Intel  H110 Express Chipset (Skylake) and 1&nbsp;×&nbsp;PCIe(x16)</li>
+                        <li>Nvidia Quadro P2000 professional workstation graphics card</li>
+                        <li>2&nbsp;×&nbsp;Intel GbE LAN</li>
+                        <li>External Connectors: 4&nbsp;×&nbsp;DP, 2&nbsp;×&nbsp;LAN,  2&nbsp;×&nbsp;USB3.0, 4&nbsp;×&nbsp;USB2.0, Audio Mic. In / Line in / Line out, 2&nbsp;×&nbsp;PS/2</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -696,7 +732,7 @@ Template: page
                 <tr>
                     <th>CPU</th>
                     <td>
-                        <a href="https://ark.intel.com/products/97128/Intel-Core-i7-7700-Processor-8M-Cache-up-to-4_20-GHz">Intel Core i7 7700 4 × 3.60GHz </a>
+                        <a href="https://ark.intel.com/products/97128/Intel-Core-i7-7700-Processor-8M-Cache-up-to-4_20-GHz">Intel Core i7 7700 4&nbsp;×&nbsp;3.60GHz </a>
                     </td>
                     <td class="has-text-centered"><span class="icon"><i class="fa fa-check has-text-success"></i></span></td>
                     <td class="has-text-right">300 €</td>
@@ -710,16 +746,22 @@ Template: page
                 <tr>
                     <th>Chassis</th>
                     <td>
-                        <a href="https://www.spectra.de">4 HE, Spectra 42300B, 500 W</a><br></td>
+                        <a href="http://www.chenbro.com/en-global/products/RackmountChassis/4U_Chassis/RM42300">4 HE, Chenbro RM4230</a></td>
                     <td class="has-text-centered"><span class="icon"><i class="fa fa-check has-text-success"></i></span></td>
-                    <td class="has-text-right">300 €</td>
+                    <td class="has-text-right">140 €</td>
                 </tr>
                 <tr>
-                    <th>Silent fans</th>
-                    <td>
-                        <a href="https://noctua.at/en/">Noctua 2 &times; 80 mm, 1 &times; 120 mm</a><br></td>
+                    <th>Power supply</th>
+                    <td>500 W</td>
                     <td class="has-text-centered"><span class="icon"><i class="fa fa-check has-text-success"></i></span></td>
-                    <td class="has-text-right">60 €</td>
+                    <td class="has-text-right">70 €</td>
+                </tr>
+                <tr>
+                    <th>Chassis fans</th>
+                    <td>
+                        <a href="https://noctua.at/en/">Noctua 2 &times; 80 mm</a><br></td>
+                    <td class="has-text-centered"><span class="icon"><i class="fa fa-check has-text-success"></i></span></td>
+                    <td class="has-text-right">32 €</td>
                 </tr>
                 <tr>
                     <th>HD</th>
@@ -744,7 +786,7 @@ Template: page
                 <th></th>
                 <th></th>
                 <th></th>
-                <th class="has-text-right">2.030 €</th>
+                <th class="has-text-right">1.920 €</th>
             </tfoot>
         </table>
         <p id="footnote-price" class="has-text-grey"><em><strong>(1)</strong> Prices are estimates and may vary depending on where you source the parts.</em></p>
@@ -763,19 +805,35 @@ Template: page
         <div class="columns">
             <div class="column is-5">
                 <figure>
-                    <img id="spectra-rack-xl" src="%base_url%/assets/boxes/spectra-rack-xl.jpg">
+                    <img id="spectra-rack-xl" src="%base_url%/assets/boxes/spectra-rack-xl.jpg" style="padding: 2rem 1rem 0 0;">
                 </figure>
             </div>
             <div class="column is-7">
                 <img src="%base_url%/assets/boxes/spectra-logo.svg" style="width: 6rem; margin-bottom: 1rem">
                 
-                <h2 class="title is-6">42300B/D3445-S/D103668 V1.0</h2>
-                <h3 class="is-small subtitle is-6">4&nbsp;U, Intel&nbsp;i7-6700&nbsp;8&nbsp;×&nbsp;3.4&nbsp;GHz, 16&nbsp;GB, 256&nbsp;GB&nbsp;SSD, Nvidia&nbsp;Quadro&nbsp;P4000</h3>
+                <h2 class="title is-5">RACK&nbsp;XL, 19"&nbsp;4U, CORE&nbsp;i7, NVIDIA&nbsp;QUADRO&nbsp;P4000</h2>
+                <h3 class="title has-text-link">2.246&nbsp;€</h3>
+                
+                <div class="buttons">
+                    <a href="%base_url%/assets/boxes/Datenblatt-RackXL-1_0.pdf" class="button is-light"><span class="icon"><i class="fa fa-file-alt"></i></span><span>Datasheet</span></a><br/>
+                    <a href="https://www.spectra.de/en/" class="button is-primary"><span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Buy from spectra</span></a>
+                </div>
+
                 <div class="content">
-                    <p><strong class="is-size-5 has-text-link">2.246&nbsp;€</strong></p>
                     <p>No compromise was made building this system. Serious CPU and graphics power for any kind of project.</p>
                     <p>The chassis has very good airflow and offers enough space for every component you need. It’s also equipped with dust filters.</p>
-                    <p><a href="#" class="button is-primary"><span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Visit product page</span></a></p>
+                    <strong>Features</strong>
+                    <ul>
+                        <li>Robust 19", 4U industrial workstation</li>
+                        <li>Steel chassis with 500 W PSU</li>
+                        <li>Intel Core i7-6700 CPU</li>
+                        <li>16 GB RAM</li>
+                        <li>256 GB SSD</li>
+                        <li>Industrial mainboard with Intel  H110 Express Chipset (Skylake) and 1&nbsp;×&nbsp;PCIe(x16), 4&nbsp;×&nbsp;PCIe(x1), 2&nbsp;×&nbsp;PCI</li>
+                        <li>Nvidia Quadro P4000 professional workstation graphics card</li>
+                        <li>2&nbsp;×&nbsp;Intel GbE LAN</li>
+                        <li>External Connectors: 4&nbsp;×&nbsp;DP, 2&nbsp;×&nbsp;LAN,  2&nbsp;×&nbsp;USB3.0, 4&nbsp;×&nbsp;USB2.0, Audio Mic. In / Line in / Line out, 2&nbsp;×&nbsp;PS/2</li>
+                    </ul>
                 </div>
             </div>
         </div>
