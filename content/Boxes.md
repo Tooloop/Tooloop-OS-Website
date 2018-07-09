@@ -525,7 +525,7 @@ Template: page
                 <h3 class="title has-text-link">925&nbsp;€</h3>
 
                 <div class="buttons">
-                    <a href="%base_url%/assets/boxes/Datenblatt-Rack M_1.0.pdf" class="button is-light"><span class="icon"><i class="fa fa-file-alt"></i></span><span>Datasheet</span></a>
+                    <a href="%base_url%/assets/boxes/Datasheet-Rack M_1.0.pdf" class="button is-light"><span class="icon"><i class="fa fa-file-alt"></i></span><span>Datasheet</span></a>
                     <a href="https://www.spectra.de/en/" class="button is-primary"><span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Buy from spectra</span></a>
                 </div>
                 <div class="content">
@@ -533,7 +533,7 @@ Template: page
                     <p>Consuming as little as 35 W, the CPU generates very little heat. The chassis is not equipped with dust filters to further optimize air flow which needs to be considered.</p>
                     <strong>Features</strong>
                     <ul>
-                        <li>Robust 19", 1U industrial workstation</li>
+                        <li>Rugged 19", 1U industrial workstation</li>
                         <li>Steel chassis with 400 W PSU</li>
                         <li>Intel Core i3-6100TE CPU, 4 GB RAM</li>
                         <li>128 GB SSD</li>
@@ -672,7 +672,7 @@ Template: page
                 <h3 class="title has-text-link">1.747&nbsp;€</h3>
                 
                 <div class="buttons">
-                    <a href="%base_url%/assets/boxes/Datenblatt-RackL-1_0.pdf" class="button is-light"><span class="icon"><i class="fa fa-file-alt"></i></span><span>Datasheet</span></a><br/>
+                    <a href="%base_url%/assets/boxes/Datasheet-RackL-1_0.pdf" class="button is-light"><span class="icon"><i class="fa fa-file-alt"></i></span><span>Datasheet</span></a><br/>
                     <a href="https://www.spectra.de/en/" class="button is-primary"><span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Buy from spectra</span></a>
                 </div>
 
@@ -681,7 +681,7 @@ Template: page
                     <p>The chassis has good airflow and is equipped with dust filters.</p>
                     <strong>Features</strong>
                     <ul>
-                        <li>Robust 19", 2U industrial workstation</li>
+                        <li>Rugged 19", 2U industrial workstation</li>
                         <li>Steel chassis with 500 W PSU</li>
                         <li>Intel Core i5-6500 CPU</li>
                         <li>8 GB RAM</li>
@@ -815,7 +815,7 @@ Template: page
                 <h3 class="title has-text-link">2.246&nbsp;€</h3>
                 
                 <div class="buttons">
-                    <a href="%base_url%/assets/boxes/Datenblatt-RackXL-1_0.pdf" class="button is-light"><span class="icon"><i class="fa fa-file-alt"></i></span><span>Datasheet</span></a><br/>
+                    <a href="%base_url%/assets/boxes/Datasheet-RackXL-1_0.pdf" class="button is-light"><span class="icon"><i class="fa fa-file-alt"></i></span><span>Datasheet</span></a><br/>
                     <a href="https://www.spectra.de/en/" class="button is-primary"><span class="icon"><i class="fa fa-shopping-cart"></i></span><span>Buy from spectra</span></a>
                 </div>
 
@@ -824,7 +824,7 @@ Template: page
                     <p>The chassis has very good airflow and offers enough space for every component you need. It’s also equipped with dust filters.</p>
                     <strong>Features</strong>
                     <ul>
-                        <li>Robust 19", 4U industrial workstation</li>
+                        <li>Rugged 19", 4U industrial workstation</li>
                         <li>Steel chassis with 500 W PSU</li>
                         <li>Intel Core i7-6700 CPU</li>
                         <li>16 GB RAM</li>
