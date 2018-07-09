@@ -10,14 +10,9 @@ Template: page
             <h2 class="subtitle is-hidden-tablet">Any help appreciated</h2>
             <div class="columns is-centered">
                <div class="column">
-                    <!-- <div class="videoWrapper">
-                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/r2CbbBLVaPk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    </div> -->
-                    <video 
-                        controls
-                        poster="%base_url%/assets/intro-video-preview.jpg">
-                        <source src="%base_url%/assets/intro-video.mp4" type="video/mp4">
-                    </video>
+                    <div class="videoWrapper">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RZDO1x2Ob7s?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
                 </div>
                 <div class="column is-6">
                     <h1 class="title is-hidden-mobile">Let's do this</h1>

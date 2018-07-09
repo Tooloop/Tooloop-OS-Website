@@ -72,8 +72,8 @@ HeroImages:
 <script type="text/javascript">
     function loadIntroVideo () {
         var videoWrapper = document.querySelector('#intro-video-modal .videoWrapper');
-        /*videoWrapper.innerHTML = '<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NpEaa2P7qZI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';*/
-        videoWrapper.innerHTML = '<video controls autoplay><source src="%base_url%/assets/intro-video.mp4" type="video/mp4"></video>';
+
+        videoWrapper.innerHTML = '<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RZDO1x2Ob7s?showinfo=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
 
         openModal('intro-video-modal');
     }
