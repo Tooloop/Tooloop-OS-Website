@@ -11,23 +11,29 @@ Template: page
                 <p>Being an Ubuntu based system, you can run pretty much any Linux application on Tooloop.<br>
                 However these platforms are specifically targeted and supported.</p>
                 <div class="columns is-centered" style="margin: 3rem 0;">
-                    <a class="column is-3" href="http://openframeworks.cc/">
+                    <a class="column" href="http://openframeworks.cc/">
                         <figure class="image is-64x64" style="margin: auto;">
                             <img src="%base_url%/assets/logo-openframeworks.svg">
                         </figure>
                         <h2 class="title is-size-5 is-marginless">openFrameworks</h2>
                     </a>
-                    <a class="column is-3" href="https://processing.org/">
+                    <a class="column" href="https://processing.org/">
                         <figure class="image is-64x64" style="margin: auto;">
                             <img src="%base_url%/assets/logo-processing.png">
                         </figure>
                         <h2 class="title is-size-5 is-marginless">Processing</h2>
                     </a>
-                    <a class="column is-3" href="https://kivy.org/">
+                    <a class="column" href="https://kivy.org/">
                         <figure class="image is-64x64" style="margin: auto;">
                             <img src="%base_url%/assets/logo-kivy.png">
                         </figure>
                         <h2 class="title is-size-5 is-marginless">Kivy</h2>
+                    </a>
+                    <a class="column" href="https://unity.com/">
+                        <figure class="image is-64x64" style="margin: auto;">
+                            <img src="%base_url%/assets/logo-unity.svg">
+                        </figure>
+                        <h2 class="title is-size-5 is-marginless">Unity</h2>
                     </a>
                 </div>
                 <p><a href="Documentation/App%20Development/General" class="button is-primary"><span class="icon"><i class="fa fa-book"></i></span><span>Read the developer docs</span></a></p>
