@@ -55,7 +55,7 @@ Template: page
                 <div class="plan-items">
                     <div class="plan-item">Super small and darn cheap.</div>
                     <div class="plan-item">SOC</div>
-                    <div class="plan-item">Raspberry Pi / ODROID</div>
+                    <div class="plan-item">ODROID XU4</div>
                     <div class="plan-item">On-chip graphics</div>
                 </div>
                 <div class="plan-footer">
@@ -287,6 +287,7 @@ Template: page
                 <th class="has-text-right">143 €</th>
             </tfoot>
         </table>
+        <!--
         <h1>Raspberry Pi</h1>
         <table class="table is-striped is-narrow">
             <thead>
@@ -336,6 +337,7 @@ Template: page
                 <th class="has-text-right">82 €</th>
             </tfoot>
         </table>
+        -->
         <p id="footnote-price" class="has-text-grey"><em><strong>(1)</strong> Prices are estimates and may vary depending on where you source the parts.</em></p>
     </section>
   </div>
