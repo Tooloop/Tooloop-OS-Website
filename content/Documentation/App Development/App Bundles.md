@@ -17,7 +17,7 @@ Have a look at the [examples on GitHub](https://github.com/vollstock/Tooloop-Exa
    |- LICENSE.md (optional)
    |
    +- bundle/
-   |   |- app.definition
+   |   |- app.json
    |   |- preview_image.jpg (320 × 180 px)
    |   |- install.sh (optional)
    |   |- uninstall.sh (optional)
@@ -71,7 +71,7 @@ It’s contents have to have this structure:
   "compatibility": {
     "s": "False",
     "m": "True",
-    "l": "True"
+    "l": "True",
     "xl": "True"
   }
 }
