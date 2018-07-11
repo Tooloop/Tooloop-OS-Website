@@ -17,4 +17,4 @@ Now click into the background. This will open the one thing, the desktop has for
 
 That’s pretty much it. Remember, *Tooloop OS* is meant to get out of the way.
 
-There’s some [terminal commands](#) and [shortcuts](Desktop%20shortcuts) if you’re curious.
+There’s some [terminal commands](%base_url%?Manual/Management/Terminal%20commands) and [shortcuts](%base_url%?Manual/Getting%20started/Desktop%20shortcuts) if you’re curious.

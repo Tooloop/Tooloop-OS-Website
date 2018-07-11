@@ -4,7 +4,7 @@ Template: docs
 Index: 2
 ---
 
-You can install openframework using the [optionals installer](#install-optional-stuff).
+You can install openframework using the [optionals installer](%base_url%?Manual/Installation/Install%20optionals).
 
 Copy your app (i.e. the `bin/` folder of your openframeworks project) over to `/assets/presentation/[YOUR_PROJECT]`.
 

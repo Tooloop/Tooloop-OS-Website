@@ -4,7 +4,7 @@ Template: docs
 Index: 13
 ---
 
-The easiest way to copy files on the machine is using an SFTP browser like [FileZilla](https://filezilla-project.org/) or [Cyberduck](https://cyberduck.io/).
+The easiest way to copy files on the machine is using an SFTP browser like [FileZilla](https://filezilla-project.org/).
 
 You will find a volume mounted at `/assets`. That’s the space to put all your files. It contains five folders:
 

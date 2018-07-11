@@ -4,7 +4,7 @@ Template: docs
 Index: 4
 ---
 
-You can install Processing using the [optionals installer](#install-optional-stuff).
+You can install Processing using the [optionals installer](%base_url%?Manual/Installation/Install%20optionals).
 
 Run your application, e.g.
 

@@ -21,7 +21,7 @@ Log in as
 User: `root`  
 Password: `odroid`  
 
-You either do it on the machine or via [SSH](how-to#ssh).
+You either do it on the machine or via [SSH](%base_url%?Manual/Management/Terminal%20commands).
 
 Optional change root password
 
@@ -54,4 +54,4 @@ After some minutes the system will automatically reboot into you new and shiny T
 If your're curious what the installer does, [check the install script](https://github.com/vollstock/Tooloop-OS/blob/master/install-tooloop-os.sh).
 
 Yay, you're done!  
-Enjoy the <a href="%base_url%/Manual/Usage/Getting Started">first steps</a> on your new Tooloop Box.
+Enjoy the <a href="%base_url%/Manual/Getting started/The desktop">first steps</a> on your new Tooloop Box.

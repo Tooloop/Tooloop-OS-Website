@@ -31,4 +31,4 @@ There's a bunch of terminal commands for your convenience. Use them on the local
 | `tooloop-settings`               | Opens a local browser with the settings UI                                                                                    |
 | `tooloop-screenshot`             | Takes a screenshot immediately, no matter whether the screenshot service is running                                           |
 | `tooloop-screenshots-clean`      | Will delete old screenshots and organize the rest in folders. This is also done automatically once a day and on every reboot. |
-| `tooloop-install-optional-stuff` | Launches a [menu with different options](getting-started#install-optional-stuff) for you to install.                                          |
+| `tooloop-install-optional-stuff` | Launches a [menu with different options](%base_url%?Manual/Installation/Install%20optionals) for you to install.                                                   |
