@@ -63,7 +63,7 @@ Template: page
                 <li class="steps-segment is-active">
                     <span class="steps-marker"></span>
                     <div class="steps-content">
-                        <p class="is-size-4"><a href="https://github.com/vollstock/Tooloop-OS/projects/2" class="has-text-link">0.9 alpha</a></p>
+                        <p class="is-size-4">0.9 alpha</p>
                         <p>Reach out for friends and communities to get feedback.</p>
                     </div>
                 </li>

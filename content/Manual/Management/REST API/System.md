@@ -98,3 +98,13 @@ Description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu
 # Turn display on and off
 
     PUT /tooloop/api/v1.0/system/displaystate
+
+
+# Get runtime schedule
+
+    GET /tooloop/api/v1.0/system/runtimeschedule
+
+
+# Set runtime schedule
+
+    PUT /tooloop/api/v1.0/system/runtimeschedule

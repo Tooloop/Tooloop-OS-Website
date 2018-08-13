@@ -36,15 +36,16 @@ usermod -a -G sudo tooloop</code></pre>
 # Set locale and keyboard layout
 
 <pre class="command-line" data-prompt="~$"><code class="language-bash">dpkg-reconfigure locales
+dpkg-reconfigure tzdata
 dpkg-reconfigure keyboard-configuration
-sudo dpkg --configure -a</code></pre>
+dpkg --configure -a</code></pre>
 
 
 # Install Tooloop OS
 
 Now get the Tooloop OS files and run the installer:
 
-<pre class="command-line" data-prompt="~$"><code class="language-bash">sudo apt install -y git && git clone https://github.com/vollstock/Tooloop-OS.git && sudo Tooloop-OS/install-tooloop-os.sh</code></pre>
+<pre class="command-line" data-prompt="~$"><code class="language-bash">apt install -y git && git clone https://github.com/vollstock/Tooloop-OS.git && Tooloop-OS/install-tooloop-os.sh</code></pre>
 
 While updating the base system, the installer will inform you that a new **boot.ini** was installed. That’s ok.
 
