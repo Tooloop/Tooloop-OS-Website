@@ -1,0 +1,3 @@
+[submodule "themes/Tooloop-Docs"]
+	path = themes/Tooloop-Docs
+	url = https://github.com/Tooloop/Tooloop-Docs-Theme.git
