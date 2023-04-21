@@ -1,5 +1,13 @@
-on: push
-name: 🚀 Deploy website on push
+name: 🚀 Deploy website
+
+on: 
+  push:
+    paths:
+      - assets/**'
+      - content/**'
+  workflow_dispatch:
+    
+
 jobs:
   web-deploy:
     name: 🎉 Deploy
