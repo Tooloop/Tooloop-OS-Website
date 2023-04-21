@@ -1,6 +1,6 @@
 ---
 Title: Tooloop
-Description: Open Media Server Framework
+Description: Open Media Server
 ---
 
 
