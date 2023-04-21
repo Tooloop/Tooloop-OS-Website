@@ -14,4 +14,4 @@ jobs:
         server: w019e149.kasserver.com
         username: f015a78d
         password: ${{ secrets.ftp_password }}
-        protocol: sftp
+        protocol: ftps
