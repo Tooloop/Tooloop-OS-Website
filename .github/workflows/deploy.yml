@@ -32,6 +32,6 @@ jobs:
           **/.git*
           **/.git*/**
           **/node_modules/**
-          vendor
+          vendor/**
           themes/default
           plugins/PicoDeprecated
