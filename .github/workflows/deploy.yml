@@ -17,3 +17,8 @@ jobs:
         username: f015a78d
         password: ${{ secrets.ftp_password }}
         protocol: ftps
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          vendor
