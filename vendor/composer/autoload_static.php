@@ -4,8 +4,12 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitff478ca07739a3fba11a30dbec7dcad6
+class ComposerStaticInit37bcf3c1669669b4e374fd17d45b1c62
 {
+    public static $files = array (
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'T' => 
         array (
@@ -13,6 +17,7 @@ class ComposerStaticInitff478ca07739a3fba11a30dbec7dcad6
         ),
         'S' => 
         array (
+            'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Component\\Yaml\\' => 23,
         ),
         'P' => 
@@ -25,6 +30,10 @@ class ComposerStaticInitff478ca07739a3fba11a30dbec7dcad6
         'Twig\\' => 
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
+        ),
+        'Symfony\\Polyfill\\Ctype\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
         'Symfony\\Component\\Yaml\\' => 
         array (
@@ -73,13 +82,23 @@ class ComposerStaticInitff478ca07739a3fba11a30dbec7dcad6
     );
 
     public static $classMap = array (
+        'AbstractPicoCompatPlugin' => __DIR__ . '/../..' . '/plugins/PicoDeprecated/lib/AbstractPicoCompatPlugin.php',
         'AbstractPicoPlugin' => __DIR__ . '/..' . '/picocms/pico/lib/AbstractPicoPlugin.php',
+        'AbstractPicoPluginApiCompatPlugin' => __DIR__ . '/../..' . '/plugins/PicoDeprecated/lib/AbstractPicoPluginApiCompatPlugin.php',
         'Parsedown' => __DIR__ . '/..' . '/erusev/parsedown/Parsedown.php',
         'ParsedownExtra' => __DIR__ . '/..' . '/erusev/parsedown-extra/ParsedownExtra.php',
-        'ParsedownExtraTest' => __DIR__ . '/..' . '/erusev/parsedown-extra/test/ParsedownExtraTest.php',
         'Pico' => __DIR__ . '/..' . '/picocms/pico/lib/Pico.php',
+        'PicoCompatPluginInterface' => __DIR__ . '/../..' . '/plugins/PicoDeprecated/lib/PicoCompatPluginInterface.php',
         'PicoDeprecated' => __DIR__ . '/../..' . '/plugins/PicoDeprecated/PicoDeprecated.php',
+        'PicoMainCompatPlugin' => __DIR__ . '/../..' . '/plugins/PicoDeprecated/plugins/PicoMainCompatPlugin.php',
+        'PicoPluginApi0CompatPlugin' => __DIR__ . '/../..' . '/plugins/PicoDeprecated/plugins/PicoPluginApi0CompatPlugin.php',
+        'PicoPluginApi1CompatPlugin' => __DIR__ . '/../..' . '/plugins/PicoDeprecated/plugins/PicoPluginApi1CompatPlugin.php',
+        'PicoPluginApi2CompatPlugin' => __DIR__ . '/../..' . '/plugins/PicoDeprecated/plugins/PicoPluginApi2CompatPlugin.php',
+        'PicoPluginApiCompatPluginInterface' => __DIR__ . '/../..' . '/plugins/PicoDeprecated/lib/PicoPluginApiCompatPluginInterface.php',
         'PicoPluginInterface' => __DIR__ . '/..' . '/picocms/pico/lib/PicoPluginInterface.php',
+        'PicoThemeApi0CompatPlugin' => __DIR__ . '/../..' . '/plugins/PicoDeprecated/plugins/PicoThemeApi0CompatPlugin.php',
+        'PicoThemeApi1CompatPlugin' => __DIR__ . '/../..' . '/plugins/PicoDeprecated/plugins/PicoThemeApi1CompatPlugin.php',
+        'PicoThemeApi2CompatPlugin' => __DIR__ . '/../..' . '/plugins/PicoDeprecated/plugins/PicoThemeApi2CompatPlugin.php',
         'PicoTwigExtension' => __DIR__ . '/..' . '/picocms/pico/lib/PicoTwigExtension.php',
         'Pico\\Composer\\Installer\\PluginInstaller' => __DIR__ . '/..' . '/picocms/composer-installer/src/Installer/PluginInstaller.php',
         'Symfony\\Component\\Yaml\\Dumper' => __DIR__ . '/..' . '/symfony/yaml/Dumper.php',
@@ -92,6 +111,7 @@ class ComposerStaticInitff478ca07739a3fba11a30dbec7dcad6
         'Symfony\\Component\\Yaml\\Parser' => __DIR__ . '/..' . '/symfony/yaml/Parser.php',
         'Symfony\\Component\\Yaml\\Unescaper' => __DIR__ . '/..' . '/symfony/yaml/Unescaper.php',
         'Symfony\\Component\\Yaml\\Yaml' => __DIR__ . '/..' . '/symfony/yaml/Yaml.php',
+        'Symfony\\Polyfill\\Ctype\\Ctype' => __DIR__ . '/..' . '/symfony/polyfill-ctype/Ctype.php',
         'Twig\\Cache\\CacheInterface' => __DIR__ . '/..' . '/twig/twig/src/Cache/CacheInterface.php',
         'Twig\\Cache\\FilesystemCache' => __DIR__ . '/..' . '/twig/twig/src/Cache/FilesystemCache.php',
         'Twig\\Cache\\NullCache' => __DIR__ . '/..' . '/twig/twig/src/Cache/NullCache.php',
@@ -136,6 +156,7 @@ class ComposerStaticInitff478ca07739a3fba11a30dbec7dcad6
         'Twig\\Node\\BlockReferenceNode' => __DIR__ . '/..' . '/twig/twig/src/Node/BlockReferenceNode.php',
         'Twig\\Node\\BodyNode' => __DIR__ . '/..' . '/twig/twig/src/Node/BodyNode.php',
         'Twig\\Node\\CheckSecurityNode' => __DIR__ . '/..' . '/twig/twig/src/Node/CheckSecurityNode.php',
+        'Twig\\Node\\DeprecatedNode' => __DIR__ . '/..' . '/twig/twig/src/Node/DeprecatedNode.php',
         'Twig\\Node\\DoNode' => __DIR__ . '/..' . '/twig/twig/src/Node/DoNode.php',
         'Twig\\Node\\EmbedNode' => __DIR__ . '/..' . '/twig/twig/src/Node/EmbedNode.php',
         'Twig\\Node\\Expression\\AbstractExpression' => __DIR__ . '/..' . '/twig/twig/src/Node/Expression/AbstractExpression.php',
@@ -240,6 +261,7 @@ class ComposerStaticInitff478ca07739a3fba11a30dbec7dcad6
         'Twig\\TokenParser\\AbstractTokenParser' => __DIR__ . '/..' . '/twig/twig/src/TokenParser/AbstractTokenParser.php',
         'Twig\\TokenParser\\AutoEscapeTokenParser' => __DIR__ . '/..' . '/twig/twig/src/TokenParser/AutoEscapeTokenParser.php',
         'Twig\\TokenParser\\BlockTokenParser' => __DIR__ . '/..' . '/twig/twig/src/TokenParser/BlockTokenParser.php',
+        'Twig\\TokenParser\\DeprecatedTokenParser' => __DIR__ . '/..' . '/twig/twig/src/TokenParser/DeprecatedTokenParser.php',
         'Twig\\TokenParser\\DoTokenParser' => __DIR__ . '/..' . '/twig/twig/src/TokenParser/DoTokenParser.php',
         'Twig\\TokenParser\\EmbedTokenParser' => __DIR__ . '/..' . '/twig/twig/src/TokenParser/EmbedTokenParser.php',
         'Twig\\TokenParser\\ExtendsTokenParser' => __DIR__ . '/..' . '/twig/twig/src/TokenParser/ExtendsTokenParser.php',
@@ -327,6 +349,7 @@ class ComposerStaticInitff478ca07739a3fba11a30dbec7dcad6
         'Twig_Node_BlockReference' => __DIR__ . '/..' . '/twig/twig/lib/Twig/Node/BlockReference.php',
         'Twig_Node_Body' => __DIR__ . '/..' . '/twig/twig/lib/Twig/Node/Body.php',
         'Twig_Node_CheckSecurity' => __DIR__ . '/..' . '/twig/twig/lib/Twig/Node/CheckSecurity.php',
+        'Twig_Node_Deprecated' => __DIR__ . '/..' . '/twig/twig/lib/Twig/Node/Deprecated.php',
         'Twig_Node_Do' => __DIR__ . '/..' . '/twig/twig/lib/Twig/Node/Do.php',
         'Twig_Node_Embed' => __DIR__ . '/..' . '/twig/twig/lib/Twig/Node/Embed.php',
         'Twig_Node_Expression' => __DIR__ . '/..' . '/twig/twig/lib/Twig/Node/Expression.php',
@@ -442,6 +465,7 @@ class ComposerStaticInitff478ca07739a3fba11a30dbec7dcad6
         'Twig_TokenParserInterface' => __DIR__ . '/..' . '/twig/twig/lib/Twig/TokenParserInterface.php',
         'Twig_TokenParser_AutoEscape' => __DIR__ . '/..' . '/twig/twig/lib/Twig/TokenParser/AutoEscape.php',
         'Twig_TokenParser_Block' => __DIR__ . '/..' . '/twig/twig/lib/Twig/TokenParser/Block.php',
+        'Twig_TokenParser_Deprecated' => __DIR__ . '/..' . '/twig/twig/lib/Twig/TokenParser/Deprecated.php',
         'Twig_TokenParser_Do' => __DIR__ . '/..' . '/twig/twig/lib/Twig/TokenParser/Do.php',
         'Twig_TokenParser_Embed' => __DIR__ . '/..' . '/twig/twig/lib/Twig/TokenParser/Embed.php',
         'Twig_TokenParser_Extends' => __DIR__ . '/..' . '/twig/twig/lib/Twig/TokenParser/Extends.php',
@@ -466,10 +490,10 @@ class ComposerStaticInitff478ca07739a3fba11a30dbec7dcad6
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitff478ca07739a3fba11a30dbec7dcad6::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitff478ca07739a3fba11a30dbec7dcad6::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitff478ca07739a3fba11a30dbec7dcad6::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitff478ca07739a3fba11a30dbec7dcad6::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit37bcf3c1669669b4e374fd17d45b1c62::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit37bcf3c1669669b4e374fd17d45b1c62::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit37bcf3c1669669b4e374fd17d45b1c62::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit37bcf3c1669669b4e374fd17d45b1c62::$classMap;
 
         }, null, ClassLoader::class);
     }

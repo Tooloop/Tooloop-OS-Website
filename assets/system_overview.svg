@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 768 266" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10;">
+    <rect id="Seite-1" serif:id="Seite 1" x="0" y="0" width="768" height="266" style="fill:none;"/>
+    <clipPath id="_clip1">
+        <rect id="Seite-11" serif:id="Seite 1" x="0" y="0" width="768" height="266"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <g id="Background">
+        </g>
+        <g id="Box">
+            <g transform="matrix(-1,0,0,1,805,85)">
+                <rect x="132.5" y="61.5" width="540" height="58" style="fill:rgb(51,51,51);"/>
+            </g>
+            <text x="324.058px" y="179.536px" style="font-family:'FiraSans-Regular', 'Fira Sans', sans-serif;font-size:14px;fill:white;">Ubuntu Server L<tspan x="424.444px 431.402px " y="179.536px 179.536px ">TS</tspan></text>
+            <text x="318.565px" y="265.831px" style="font-family:'FiraSans-Regular', 'Fira Sans', sans-serif;font-size:18px;fill:rgb(153,153,153);">Solid f<tspan x="370.385px " y="265.831px ">o</tspan>undation</text>
+        </g>
+        <g id="OS">
+            <g transform="matrix(-1,0,0,1,1075,-31)">
+                <rect x="402.5" y="119.5" width="270" height="58" style="fill:rgb(177,229,247);"/>
+            </g>
+            <g transform="matrix(-1,0,0,1,535,-31)">
+                <rect x="132.5" y="119.5" width="270" height="58" style="fill:rgb(60,190,235);"/>
+            </g>
+            <text x="183.721px" y="122.598px" style="font-family:'FiraSans-Regular', 'Fira Sans', sans-serif;font-size:14px;fill:white;">Openbox window manager</text>
+            <text x="465.667px" y="122.598px" style="font-family:'FiraSans-Regular', 'Fira Sans', sans-serif;font-size:14px;fill:white;">T<tspan x="472.135px " y="122.598px ">o</tspan>oloop Settings Serv<tspan x="603.094px " y="122.598px ">e</tspan>r</text>
+            <g>
+                <text x="19.297px" y="137.822px" style="font-family:'FiraSans-Regular', 'Fira Sans', sans-serif;font-size:18px;fill:rgb(153,153,153);">Super</text>
+                <text x="-1.041px" y="159.422px" style="font-family:'FiraSans-Regular', 'Fira Sans', sans-serif;font-size:18px;fill:rgb(153,153,153);">lightweight</text>
+            </g>
+            <g>
+                <text x="697.8px" y="161.822px" style="font-family:'FiraSans-Regular', 'Fira Sans', sans-serif;font-size:18px;fill:rgb(153,153,153);">P<tspan x="707.717px " y="161.822px ">e</tspan>ac<tspan x="735.451px " y="161.822px ">e</tspan> of</text>
+                <text x="711.768px" y="183.422px" style="font-family:'FiraSans-Regular', 'Fira Sans', sans-serif;font-size:18px;fill:rgb(153,153,153);">mind</text>
+            </g>
+            <g transform="matrix(1,0,0,1,5.68493,-104.112)">
+                <g transform="matrix(1,-0,-0,1,-5.68493,104.112)">
+                    <path d="M115.858,77.224L120.384,89.12L108.488,93.646" style="fill:none;stroke:rgb(102,102,102);stroke-width:3px;"/>
+                    <path d="M48.186,114.324C65.512,81.274 87.628,74.735 120.384,89.12" style="fill:none;stroke:rgb(102,102,102);stroke-width:3px;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,688.432,-81.0382)">
+                <g transform="matrix(1,-0,-0,1,-688.432,81.0382)">
+                    <path d="M700.986,94.177L689.912,87.903L696.186,76.829" style="fill:none;stroke:rgb(102,102,102);stroke-width:3px;"/>
+                    <path d="M730.934,137.398C746.632,101.856 730.408,77.179 689.912,87.903" style="fill:none;stroke:rgb(102,102,102);stroke-width:3px;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,271.273,37.7665)">
+                <g transform="matrix(1,-0,-0,1,-271.273,-37.7665)">
+                    <path d="M271.348,216.153L283.26,211.669L287.744,223.581" style="fill:none;stroke:rgb(102,102,102);stroke-width:3px;"/>
+                    <path d="M308.582,261.348C284.042,259.068 273.933,233.634 283.26,211.669" style="fill:none;stroke:rgb(102,102,102);stroke-width:3px;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+            </g>
+        </g>
+        <g id="App">
+            <g transform="matrix(1,0,0,1,0,-217)">
+                <rect x="132.5" y="217.5" width="540" height="48" style="fill:rgb(230,0,76);"/>
+            </g>
+            <text x="363.453px" y="29.599px" style="font-family:'FiraSans-Regular', 'Fira Sans', sans-serif;font-size:14px;fill:white;">P<tspan x="371.307px 376.388px " y="29.599px 29.599px ">re</tspan>sentation</text>
+        </g>
+    </g>
+</svg>

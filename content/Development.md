@@ -1,6 +1,6 @@
 ---
 Title: Development
-Template: page
+Index: 99
 ---
 
 <section class="section hero is-info is-bold">
