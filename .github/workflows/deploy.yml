@@ -3,8 +3,11 @@ name: 🚀 Deploy website
 on: 
   push:
     paths:
-      - assets/**'
-      - content/**'
+      - 'assets/**'
+      - 'config/**'
+      - 'content/**'
+      - 'plugins/**'
+      - 'themes/**'
   workflow_dispatch:
     
 
