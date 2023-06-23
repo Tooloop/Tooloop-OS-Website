@@ -15,4 +15,22 @@ Now click into the background. This will open the one thing, the desktop has for
 
 That’s pretty much it. Remember, *Tooloop OS* is meant to get out of the way.
 
-There’s some [terminal commands](%base_url%?Manual/Management/Terminal%20commands) and [shortcuts](%base_url%?Manual/Getting%20started/Desktop%20shortcuts) if you’re curious.
+
+# Keyboard shortcuts
+
+
+| Shortcut           | Description                 |
+| :----------------- | :-------------------------- |
+| **Helpers**        |                             |
+| `Super + t`        | Opens a Terminal            |
+| `Super + c`        | Opens a clock               |
+| `Super + s`        | Opens the settings          |
+| **Windows**        |                             |
+| `Super + w`        | Close window                |
+| `Super + Esc`      | Send to background          |
+| **Screenshots**    |                             |
+| `Super + Alt + 3`   | Whole display               |
+
+<div class="notification is-light">
+Btw. <code>Super</code> usually refers to the Windows (<span class="icon"><i class="fab fa-windows"></i></span>) or Command (<span class="icon">⌘</i></span>) key.
+</div>

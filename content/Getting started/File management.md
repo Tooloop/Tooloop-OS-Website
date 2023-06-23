@@ -1,14 +1,20 @@
 ---
-Title: Files
+Title: File management
 ---
 
 # AFP
 
-The easiest way to copy files on the machine is using an SFTP browser like [Cyberduck](https://cyberduck.io/).
+On a Mac you can access the `home` folder and the `assets` folder via AFP.
+In Finder you can find the machine network view or connect to it vie *Goto/Connect to server*
+
+```
+afp://<IP-ADDRESS>
+afp://<HOSTNAME>.local
+```
 
 # SFTP
 
-The easiest way to copy files on the machine is using an SFTP browser like [Cyberduck](https://cyberduck.io/).
+On Windows, the easiest way to copy files on the machine is using an SFTP browser like [Cyberduck](https://cyberduck.io/) or [FileZilla](https://filezilla-project.org/).
 
 
 
@@ -19,7 +25,7 @@ You will find a volume mounted at `/assets`. That’s the space to put all your 
 | Path                    | Description                                                                   |
 | ----------------------- | ----------------------------------------------------------------------------- |
 | `/assets/data/`         | put your images, videos, etc. here                                            |
-| `/assets/logs/`         | log files, well if your app saves ’em here                                    |
+| `/assets/logs/`         | for log files                                                                 |
 | `/assets/packages/`     | app bundles that are locally available to install through the settings server |
 | `/assets/presentation/` | put your app here                                                             |
 | `/assets/screenshots/`  | screenshots will be saved here                                                |

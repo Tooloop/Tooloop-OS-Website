@@ -13,7 +13,7 @@ Tooloop OS is based on [Ubuntu Server 22.04 LTS](https://www.ubuntu.com/download
 
 Many ideas of Tooloop OS are based on [this article](http://openframeworks.cc/ofBook/chapters/installation_up_4evr_linux.html) in the openframeworks book on keeping a linux installation up forever. However Tooloop tries to take the aproach one step further. 
 
-Tooloop OS comes with a set of [management and maintenance tools](https://github.com/tooloop/Tooloop-Control) and a set of [default/example apps](https://github.com/tooloop/Tooloop-Packages). You can configure and control it over the network and get built-in health and confidence monitoring.
+Tooloop OS comes with a set of [management and maintenance tools](Getting%20started/Control%20Center) and a set of [default/example apps](https://github.com/tooloop/Tooloop-Packages). You can configure and control it over the network and get built-in health and confidence monitoring.
 
 
 # Who should use it?
@@ -27,14 +27,7 @@ Being Ubuntu based, Tooloop OS can run pretty much any Linux software. However i
 - [Processing](https://processing.org)
 - [Kivy](https://kivy.org/)
 
-If you have written an application using one of these, Tooloop might just be what you need to stop worrying about deploying your live system.
-
-
-# Status
-
-The system is stable and usable. In fact I am using it exclusivly for all my clients projects for years and you are warmly invited to give it a go and contribute.
-
-Please check out [the project website](http://tooloop.org) if you want to learn more. The [manual](http://tooloop.org/Manual) and [developer docs](http://tooloop.org/Development) are a little outdated and incomplete, though.
+If you have written an application using one of these, Tooloop might just be what you need.
 
 
 # Get involved
@@ -43,24 +36,3 @@ Help is very much welcome! If you want to have a look, install it in a virtual m
 
 Open an issue here if you want to discuss ideas or changes.  
 You're also very welcome in the [Tooloop OS Matrix chat room](https://app.element.io/#/room/#tooloop-os:matrix.org).
-
-
-# Installation
-
-1. Download and install [Ubuntu Server 22.04 LTS](https://ubuntu.com/download/server)
-2. Name the user `tooloop`
-3. SSH into your machine
-    ```bash
-    ssh tooloop@<IP_ADDRESS>
-    ```
-4. Clone the repo  
-    ```bash
-    git clone https://github.com/Tooloop/Tooloop-OS
-    ```
-5. Run the install script
-    ```bash
-    cd Tooloop-OS
-    sudo ./install-tooloop-os.sh
-    ```
-
-You can get your Tooloop Box up and running in about 30 minutes ;-).
