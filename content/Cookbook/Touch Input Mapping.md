@@ -91,7 +91,7 @@ If all we want is to rotate touch input, we’re done and can use that matrix (s
 The 3×3 matrix for scaling:
 ```
     ⎡ w 0 0 ⎤
-r = ⎜ 0 h 0 ⎥
+s = ⎜ 0 h 0 ⎥
     ⎣ 0 0 1 ⎦
 ```
 
@@ -127,6 +127,24 @@ h = 1024 / 1080 = 0.9481481481
 s = ⎜ 0            0.9481481481 0 ⎥
     ⎣ 0            0            1 ⎦
 ```
+
+
+# Combining scale and rotation
+
+<article class="message is-info">
+  <div class="message-header">
+    <p>Tipp</p>
+  </div>
+  <div class="message-body">
+    Careful, order matters in affine transformation
+  </div>
+</article>
+
+```
+m = r · s
+```
+
+You can use an [online calculator](https://matrixcalc.org).
 
 
 # Applying the matrix {#applying-the-matrix}

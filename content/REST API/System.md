@@ -44,6 +44,18 @@ GET /tooloop/api/v1.0/system/usage
 GET /tooloop/api/v1.0/system/uptime
 ```
 
+# Get timezone
+
+```http
+GET /tooloop/api/v1.0/system/timezone
+```
+
+# Set timezone
+
+```http
+PUT /tooloop/api/v1.0/system/timezone
+```
+
 # GET HD usage
 
 ```http
