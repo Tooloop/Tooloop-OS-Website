@@ -76,7 +76,7 @@ r = ⎜ sin(⍺)  cos(⍺) 1 ⎥
     ⎣   0       0    1 ⎦
 ```
 
-For a display oriented bottom right (⍺ = 270°), that results in this
+For a display oriented bottom right (⍺ = 270°), that results in
 
 ```
     ⎡  0 1 0 ⎤
@@ -118,14 +118,14 @@ h = touchscreen height / total screen height
 ```
 
 ```
-w = 768 / (768+1920) = 0.2857142857  
-h = 1024 / 1080 = 0.9481481481
+w = 768 / (768+1920) = 0.286  
+h = 1024 / 1080 = 0.948
 ```
 
 ```
-    ⎡ 0.2857142857 0            0 ⎤
-s = ⎜ 0            0.9481481481 0 ⎥
-    ⎣ 0            0            1 ⎦
+    ⎡ 0.286 0     0 ⎤
+s = ⎜ 0     0.948 0 ⎥
+    ⎣ 0     0     1 ⎦
 ```
 
 
@@ -141,10 +141,18 @@ s = ⎜ 0            0.9481481481 0 ⎥
 </article>
 
 ```
-m = r · s
+m = s · r
 ```
 
 You can use an [online calculator](https://matrixcalc.org).
+
+In the example above the resulting matrix would look like this:
+
+```
+    ⎡ 0.286 0     0 ⎤   ⎡  0 1 0 ⎤   ⎡  0     0.286 0     ⎤
+m = ⎜ 0     0.948 0 ⎥ · ⎜ -1 0 1 ⎥ = ⎜ -0.948 0     0.948 ⎥
+    ⎣ 0     0     1 ⎦   ⎣  0 0 1 ⎦   ⎣  0     0     1     ⎦
+```
 
 
 # Applying the matrix {#applying-the-matrix}
@@ -156,7 +164,7 @@ xinput set-prop <DEVICE_ID> 'Coordinate Transformation Matrix' <MATRIX>
 
 # example from above (including weird ID)
 
-xinput set-prop "ILITEK     ILITEK-TOUCH                                                    " 'Coordinate Transformation Matrix' 0 0.2857142857 0 -0.9481481481 0 0.9481481481 0 0 1 &
+xinput set-prop "ILITEK     ILITEK-TOUCH                                                    " 'Coordinate Transformation Matrix' 0 0.286 0 -0.948 0 0.948 0 0 1 &
 ```
 
 To make this mapping permanent, copy that line to  
