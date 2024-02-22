@@ -22,9 +22,10 @@ That’s pretty much it. Remember, *Tooloop OS* is meant to get out of the way.
 | Shortcut           | Description                 |
 | :----------------- | :-------------------------- |
 | **Helpers**        |                             |
-| `Super + t`        | Opens a Terminal            |
-| `Super + c`        | Opens a clock               |
-| `Super + s`        | Opens the settings          |
+| `Super + c`        | Clock               |
+| `Super + f`        | File manager |
+| `Super + t`        | Terminal            |
+| `Super + s`        | System settings          |
 | **Windows**        |                             |
 | `Super + w`        | Close window                |
 | `Super + Esc`      | Send to background          |
