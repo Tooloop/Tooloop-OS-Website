@@ -50,4 +50,4 @@ If you're curious what the installer does, [check the install script](https://gi
 
 Yay, you're done!  
 
-Enjoy the <a href="%base_url%/Manual/Getting started/The desktop">first steps</a> on your new Tooloop Box.
+Enjoy the <a href="/Getting started/The desktop">first steps</a> on your new Tooloop Box.
