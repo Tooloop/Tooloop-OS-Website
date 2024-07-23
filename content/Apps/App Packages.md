@@ -3,7 +3,7 @@ Index: 2.4
 Title: App Packages
 ---
 
-You can bundle your app so it can be installed in the App Center section in the [Control Center](/Getting%20Started/Control%20Center).  
+You can bundle your app so it can be installed in the App Center section in the [Control Center](/Getting%20started/Control%20Center).  
 Have a look at the [bundled apps on GitHub](https://github.com/Tooloop/Tooloop-Packages) for some examples.
 
 ## Package format
