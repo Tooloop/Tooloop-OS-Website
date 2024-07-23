@@ -23,7 +23,7 @@ Whatever command is needed to start or stop your app, put it in there.
 These scripts are called from
 
 - the [autostart script](https://github.com/Tooloop/Tooloop-OS/blob/master/files/openbox-config/autostart)
-- the [desktop menu](/Getting%20started/The%20Desktop)
+- the [desktop menu](/Getting%20started/The%20desktop)
 - the [terminal aliases](/Getting%20started/Terminal%20access)
 - the [control center](/Getting%20started/Control%20Center)
 
