@@ -1,91 +1,65 @@
 ---
 Index: 2.1
+Title: Overview
 ---
 
-<section class="section hero">
-    <div class="hero-body">
-        <div class="container has-text-centered">
-            <h1 class="title">Brew your own</h1>
-            <div class="container content">
-                <p>Being an Ubuntu based system, you can run pretty much any Linux application on Tooloop.<br>
-                However these platforms are specifically targeted and supported.</p>
-                <div class="columns is-centered" style="margin: 3rem 0;">
-                    <a class="column" href="http://openframeworks.cc/">
-                        <figure class="image is-64x64" style="margin: auto;">
-                            <img src="%base_url%/assets/logo-openframeworks.svg">
-                        </figure>
-                        <h2 class="title is-size-5 is-marginless">openFrameworks</h2>
-                    </a>
-                    <a class="column" href="https://processing.org/">
-                        <figure class="image is-64x64" style="margin: auto;">
-                            <img src="%base_url%/assets/logo-processing.png">
-                        </figure>
-                        <h2 class="title is-size-5 is-marginless">Processing</h2>
-                    </a>
-                    <a class="column" href="https://kivy.org/">
-                        <figure class="image is-64x64" style="margin: auto;">
-                            <img src="%base_url%/assets/logo-kivy.png">
-                        </figure>
-                        <h2 class="title is-size-5 is-marginless">Kivy</h2>
-                    </a>
-                    <a class="column" href="https://unity.com/">
-                        <figure class="image is-64x64" style="margin: auto;">
-                            <img src="%base_url%/assets/logo-unity.svg">
-                        </figure>
-                        <h2 class="title is-size-5 is-marginless">Unity</h2>
-                    </a>
-                </div>
-                <p><a href="Documentation/App%20Development/General" class="button is-primary"><span class="icon"><i class="fa fa-book"></i></span><span>Read the developer docs</span></a></p>
-            </div>
-        </div>
-    </div>
-</section>
+There’s two ways to get content on your Tooloop OS box.
 
-<section class="section hero is-light is-bold">
-    <div class="hero-body">
-        <div class="container">
-            <h1 class="title">Bundled apps</h1>
-        </div>
-        <div class="container content">
-            <p>&nbsp;</p>
-            <p>For some simple cases there’s a bunch of example apps that ship with Tooloop OS.<br>You can easily install them in the <a href="Manual/Management/App Center" class="has-text-link">app center</a>.</p>
-            <p>&nbsp;</p>
-        </div>
-        <div class="container content">
-            <div class="tile is-ancestor">
-                <div class="tile is-parent">
-                    <div class="tile is-child card">
-                        <div class="card-image">
-                            <img src="%base_url%/assets/app-simple-video-player.jpg" alt="Placeholder image">
-                        </div>
-                        <div class="card-content content">
-                            <h3>Video Player</h3>
-                            <p>Runs all videos in the data folder in a loop.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tile is-parent">
-                    <div class="tile is-child card">
-                        <div class="card-image">
-                            <img src="%base_url%/assets/app-image-slideshow.jpg" alt="Placeholder image">
-                        </div>
-                        <div class="card-content content">
-                            <h3>Image Slideshow</h3>
-                            <p>Displays all images in the data folder and fades in between them.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tile is-parent">
-                    <div class="tile is-child card">
-                        <div class="card-image">
-                            <img src="%base_url%/assets/app-simple-kiosk-browser.jpg" alt="Placeholder image">
-                        </div>
-                        <div class="card-content content">
-                            <h3>Kiosk Browser</h3>
-                            <p>Touch-ready fullscreen browser with hidden mouse cursor.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+# Bring your own software
+
+Being an Ubuntu based system, you can run pretty much any Linux application on Tooloop OS.  
+These platforms, however, have been used frequently and are running great.
+
+<div class="container content has-text-centered my-6 has-background-light">
+    <div class="columns is-centered my-6">
+        <a class="column call-to-action" href="http://openframeworks.cc/">
+            <figure class="image is-48x48" style="margin: auto;">
+                <img src="%base_url%/assets/logo-openframeworks.svg">
+            </figure>
+            <h2 class="title is-size-5 is-marginless">openFrameworks</h2>
+        </a>
+        <a class="column call-to-action" href="https://processing.org/">
+            <figure class="image is-48x48" style="margin: auto;">
+                <img src="%base_url%/assets/logo-processing.png">
+            </figure>
+            <h2 class="title is-size-5 is-marginless">Processing</h2>
+        </a>
+        <a class="column call-to-action" href="https://kivy.org/">
+            <figure class="image is-48x48" style="margin: auto;">
+                <img src="%base_url%/assets/logo-kivy.png">
+            </figure>
+            <h2 class="title is-size-5 is-marginless">Kivy</h2>
+        </a>
+        <a class="column call-to-action" href="https://unity.com/">
+            <figure class="image is-48x48" style="margin: auto;">
+                <img src="%base_url%/assets/logo-unity.svg">
+            </figure>
+            <h2 class="title is-size-5 is-marginless">Unity</h2>
+        </a>
+    </div>
+</div>
+
+When writing your own software, you might want to learn how it fits in the Tooloop OS environment.
+
+<div class="buttons">
+    <a href="/Apps/Requirements for Custom Apps" class="button is-primary mb-6">
+        <span class="icon"><i class="fa fa-circle-info"></i></span>
+        <span>Requirements for custom apps</span>
+    </a>
+    <a href="/Apps/App Packages" class="button is-primary mb-6">
+        <span class="icon"><i class="fa fa-box"></i></span>
+        <span>App packages</span>
+    </a>
+</div>
+
+
+# Install a bundled app
+
+For some simple cases there’s a bunch of apps that ship with Tooloop OS.
+Many times, they will serve you fine and help you build a simple kiosk application, a slideshow or a video player. You can easily install them in the [control center](/Getting%20started/Control%20Center).
+
+<a href="/Apps/Bundled Apps" class="button is-info mb-6">
+    <span class="icon"><i class="fa fa-store"></i></span>
+    <span>Browse bundled apps</span>
+</a>

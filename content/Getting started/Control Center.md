@@ -13,7 +13,4 @@ You can open it
 - from a browser on the network (using the IP address of your machine)
 - from the [desktop menu](The%20desktop)
 - from the [terminal](Terminal%20access) `tooloop-settings`
-
-# Code
-
-The control center has its’ own [GitHub project](https://github.com/tooloop/Tooloop-Control).
+- using the [keyboard shortcut](/Getting%20started/The%20Desktops) `Super + s`

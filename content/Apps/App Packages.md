@@ -1,98 +1,91 @@
 ---
+Index: 2.4
 Title: App Packages
 ---
 
-You want to develop an app of yourself – cool, that’s what *Tooloop* is for :-)  
-Simply follow some conventions and it will behave as a first class citizen on *Tooloop OS*.
+You can bundle your app so it can be installed in the App Center section in the [Control Center](/Getting%20Started/Control%20Center).  
+Have a look at the [bundled apps on GitHub](https://github.com/Tooloop/Tooloop-Packages) for some examples.
 
-You application should live in `/assets/presentation/`.
+## Package format
 
-Tooloop OS uses two scripts to start, stop or restart the app.
+Tooloop Packages are ZIP files, wrapping a [Debian package (.deb)](https://en.wikipedia.org/wiki/Deb_(file_format)) and additional images, that are displayed in the App center:
 
-`/assets/presentation/start-presentation.sh`  
-`/assets/presentation/stop-presentation.sh`
+    package.zip
+    │
+    ├─ <package-name>_v.v.v_aaa.deb (mandatory)
+    │
+    └─ media/
+       ├─ <preview_image>.jpg (mandatory)
+       ├─ <optional-image>.png
+       ├─ <optional-image>.jpg
+       └─ ...
 
-Whatever command is needed to start or stop your app, put it in there.
 
-These scripts are called from
+## The Debian package
 
-- the desktop menu
-- the terminal aliases `tooloop-presentation-start` and `tooloop-presentation-stop`
-- the settings server
 
-# Package format
+This is the folder structure:
 
-You can bundle your app so it can be installed in the App Center section in the <a href="%base_url%/Manual/Management/System settings">System Settings</a>.  
-Just put your bundle in the `/assets/apps/` folder.
-
-Have a look at the [examples on GitHub](https://github.com/vollstock/Tooloop-Examples) if you want to see how those are done.
-
-# Bundle structure
-
-```yaml
-- [APP_NAME]/
-   |
-   |- README.md (optional)
-   |- LICENSE.md (optional)
-   |
-   +- bundle/
-   |   |- app.json
-   |   |- preview_image.jpg (320 × 180 px)
-   |   |- install.sh (optional)
-   |   |- uninstall.sh (optional)
-   |   |- controller.py (optional)
-   |   |- settings.html (optional)
-   |
-   +- presentation/
-   |   |- start-presentation.sh
-   |   |- stop-presentation.sh
-   |   |- ...
-   |
-   +- data/ (optional)
-   |   |- ...
+```
+│
+├─ media/ (your image files)
+│  ├─ some-image.jpg
+│  └─ ...
+│
+package/ (the Debian package)
+├─ DEBIAN/
+│  ├─ control (mandatory)
+│  ├─ postinst (optional)
+│  ├─ postrm (optional)
+│  └─ ...
+│
+└─ assets/
+    ├─ presentation/
+    │  ├─ LICENSE.md
+    │  ├─ README.md
+    │  ├─ start-presentation.sh (mandatory)
+    │  ├─ stop-presentation.sh (mandatory)
+    │  └─ ...
+    │
+    └─ data/
+        └─ ...
 ```
 
-# App definition
+The `/DEBIAN` folder contains the package information and some control files. All other folders are simply copied to disk for you.
 
-In the bundle there’s a json file that the settings server uses to display information about the app.
 
-It’s contents have to have this structure:
+**The DEBIAN/control file**
 
-```json
-{
-  "name": "Awesome Super Trooper",
-  "description": "256 characters short description",
-  "media": [
-    {
-      "type": "video",
-      "url": "https://youtu.be/GynFoGzOWds",
-      "description": "Description of video 1"
-    }, {
-      "type": "image",
-      "url": "https://www.cool-dude.com/awesome-super-trooper/img/app-preview-1.jpg",
-      "description": "Description of image 1"
-    }, {
-      "type": "image",
-      "url": "https://www.cool-dude.com/awesome-super-trooper/img/app-preview-2.jpg",
-      "description": "Description of image 2"
-    }, {
-      "type": "video",
-      "url": "https://vimeo.com/6912147",
-      "description": "Description of video 2"
-    }
-  ],
-  "version": "1.0",
-  "last_updated": "2017-01-22",
-  "license": "Commercial",
-  "category": "Tools",
-  "tags": ["examples"],
-  "developer": "Cool dude",
-  "homepage": "http://www.cool-dude.com/awesome-super-trooper/",
-  "compatibility": {
-    "s": "False",
-    "m": "True",
-    "l": "True",
-    "xl": "True"
-  }
-}
+This file contains all the information about your package.
+It’s used to display information in the app center.
+
+https://linux.die.net/man/5/deb-control
+
+```YAML
+Package: my-app
+# Use semantic versioning https://semver.org/
+Version: 1.0.0
+Maintainer: Tooloop Multimedia
+Homepage: https://www.tooloop.de
+Bugs: https://github.com/Tooloop/Tooloop-Packages
+# One of "tooloop/presentation", "tooloop/addon"
+Section: tooloop/presentation
+Architecture: amd64
+Depends: tooloop-transparent-cursor
+# App name shown in the app center.
+Name: My App
+# The thumbnail shown in the app center
+Thumbnail: my-app-thumbnail.jpg
+# The media files, shown in the detail view of the package
+# can be JPGs and PNGs
+Media: my-app-image1.jpg, my-app-image2.png
+# First line is the short description shown in the app center.
+# All following lines are used as detailed description.
+Description: A simple example, how to make a processing app
+ Longer description, indented by one space
+ .
+ empty lines have just a single point
+ *Markdown* _is_ ok
+ ends with one additional line break
+
 ```
