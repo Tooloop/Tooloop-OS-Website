@@ -9,7 +9,7 @@ Description: Open Media Server
 
 [Tooloop OS](http://tooloop.org) is a platform for media artists to safely and easily develop and deploy multimedia installations.
 
-Tooloop OS is based on [Ubuntu Server 24.04 LTS](https://www.ubuntu.com/download/server) and the super lightweight window manager [Openbox](https://de.wikipedia.org/wiki/Openbox). Both are customized to fit the needs of live and public multimedia installations.
+Tooloop OS is based on [Ubuntu Server 24.04 LTS](https://www.ubuntu.com/download/server) and the super lightweight window manager [Openbox](https://en.wikipedia.org/wiki/Openbox). Both are customized to fit the needs of live and public multimedia installations.
 
 Many ideas of Tooloop OS are based on [this article](http://openframeworks.cc/ofBook/chapters/installation_up_4evr_linux.html) in the openframeworks book on keeping a linux installation up forever. However Tooloop tries to take the aproach one step further. 
 
