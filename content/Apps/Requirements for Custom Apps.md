@@ -7,7 +7,7 @@ A presentation on Tooloop OS needs to adhere to some simple standards so it can 
 
 ## Location
 
-It makes sense to follow the [recommended folder structure](Getting%20started/File%20management).  
+It makes sense to follow the [recommended folder structure](/Getting%20started/File%20management).  
 
 - Your application should live in `/assets/presentation/`
 - Data files like images or videos should go to `/assets/data/`
