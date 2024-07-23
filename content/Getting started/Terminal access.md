@@ -2,8 +2,6 @@
 Title: Terminal access
 ---
 
-# SSH
-
 By default the SSH server is running so you can log into your box remotely from your terminal.
 
 ```bash
@@ -13,7 +11,7 @@ ssh tooloop@<IP-ADDRESS-OF-YOUR-BOX>
 Windows users might want to install [PuTTY](http://www.putty.org/).
 
 
-# Terminal commands
+# Commands
 
 There's a bunch of terminal commands for your convenience. Use them on the local machine or remotely via SSH.
 
