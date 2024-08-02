@@ -1,6 +1,14 @@
 ---
 Index: 2.2
+Title: Bundled Apps
 ---
+
+Tooloop OS comes with some handy apps built-in. There are two types of app packages:
+
+1. **Presentations** are a running media application that will display content. You can only install one presentation at a time.
+2. **Addons** are complementary tools to support a presentation.
+
+Apps can be installed in the [Control Center](/Getting%20started/Control%20Center).
 
 <div class="columns is-multiline mt-3">
     <!-- picom -->
