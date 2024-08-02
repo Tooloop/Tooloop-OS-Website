@@ -22,7 +22,7 @@ Description: A box for every need and budget
                 <i class="fa fa-wrench has-text-primary mr-3"></i>
                 <span>Re-purpose if possible</span>
             </h2>
-            <p>Tooloop OS runs on a potatoe (see <a href="#Requirements">Requirements</a>).</p>
+            <p>Tooloop OS runs on a potato (see <a href="#Requirements">Requirements</a>).</p>
             <p>If you have old hardware, that still meets the <a href="#Recommendations">recommendations</a> it’s a wonderful oppurtunity to save some money and protect the environment by re-using your old computers.</p>
             <p><a href="/Apps/Bundled%20Apps">Out of the box</a>, Tooloop OS is a great video player, for example.<p>
         </div>
