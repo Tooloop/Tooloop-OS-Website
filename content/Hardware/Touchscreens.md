@@ -14,22 +14,25 @@ Nowadays most touchscreens just work. The following table lists compatible manuf
 
 When using a configurations with a rotated monitor (i. e. portrait) or multi display configuration you need to map the input coordinates to the screens pixels.
 
-In the [autostart script](https://github.com/Tooloop/Tooloop-OS/blob/master/files/openbox-config/autostart) there’s some presets for all screen orientations.
-Just uncomment the line, that matches your setup.
+There are some presets for all [screen orientations](https://wiki.ubuntu.com/X/InputCoordinateTransformation) in the [autostart script](https://github.com/Tooloop/Tooloop-OS/blob/master/files/openbox-config/autostart).
+
+First, get your device name:
+
+```bash
+xinput list
+```
+Now uncomment the line, that matches your setup and add your device name:
 
 `~/.config/openbox/autostart`
 
 ```bash
 […]
-
-# Rotate touch input, find device using 'xinput list'
-# See https://wiki.ubuntu.com/X/InputCoordinateTransformation
 # normal
-# xinput set-prop 'Pixart Imaging, Inc. Optical Touch' 'Coordinate Transformation Matrix' 'Coordinate Transformation Matrix' 1 0 0 0 1 0 0 0 1 &
+# xinput set-prop '<DEVICE>' 'Coordinate Transformation Matrix' 'Coordinate Transformation Matrix' 1 0 0 0 1 0 0 0 1 &
 # left
 xinput set-prop 'Pixart Imaging, Inc. Optical Touch' 'Coordinate Transformation Matrix' 0 -1 1 1 0 0 0 0 1 &
 # right
-# xinput set-prop 'Pixart Imaging, Inc. Optical Touch' 'Coordinate Transformation Matrix' 0 1 0 -1 0 1 0 0 1 &
+# xinput set-prop '<DEVICE>' 'Coordinate Transformation Matrix' 0 1 0 -1 0 1 0 0 1 &
 # inverted
 # xinput set-prop <DEVICE> 'Coordinate Transformation Matrix' -1 0 1 0 -1 1 0 0 1 &
 
