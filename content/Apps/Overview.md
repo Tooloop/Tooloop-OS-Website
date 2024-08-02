@@ -6,7 +6,18 @@ Title: Overview
 There’s two ways to get content on your Tooloop OS box.
 
 
-# Bring your own software
+# Install a bundled app
+
+For some simple cases there’s a bunch of apps that ship with Tooloop OS.
+Many times, they will serve you fine and help you build a simple kiosk application, a slideshow or a video player. You can easily install them in the [control center](/Getting%20started/Control%20Center).
+
+<a href="/Apps/Bundled Apps" class="button is-info mb-6">
+    <span class="icon"><i class="fa fa-store"></i></span>
+    <span>Browse bundled apps</span>
+</a>
+
+
+# Write your own custom application
 
 Being an Ubuntu based system, you can run pretty much any Linux application on Tooloop OS.  
 These platforms, however, have been used frequently and are running great.
@@ -52,14 +63,3 @@ When writing your own software, you might want to learn how it fits in the Toolo
         <span>App packages</span>
     </a>
 </div>
-
-
-# Install a bundled app
-
-For some simple cases there’s a bunch of apps that ship with Tooloop OS.
-Many times, they will serve you fine and help you build a simple kiosk application, a slideshow or a video player. You can easily install them in the [control center](/Getting%20started/Control%20Center).
-
-<a href="/Apps/Bundled Apps" class="button is-info mb-6">
-    <span class="icon"><i class="fa fa-store"></i></span>
-    <span>Browse bundled apps</span>
-</a>
