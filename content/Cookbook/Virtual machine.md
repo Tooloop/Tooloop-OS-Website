@@ -4,20 +4,21 @@ Title: Running in a virtual machine
 
 You can easily install Tooloop OS in a virtual machine.
 
-This guide is using [VirtualBox](https://www.virtualbox.org/) but any other virtualization software will probably just work the same.
+This guide is using [VirtualBox](https://www.virtualbox.org/) but any other virtualization software will probably just work the same.  
+On a Mac, you can also use [UTM](https://mac.getutm.app/). Just make sure to use the [ARM64 version of Ubuntu](https://ubuntu.com/download/server/arm).
 
 # New machine
 
 Click on “New” to create a new machine.  
 Name it and give it some memory. 4 GB is a size that the mid-range boxes specify and your computer can probably spare.
 
-<img src="%base_url%/assets/manual/installation-vm/010-new.png" style="box-shadow: 0 3px 10px rgba(0,0,0,0.75);">
+<img src="%base_url%/assets/manual/installation-vm/010-new.png" style="box-shadow: 0 3px 10px rgba(0,0,0,0.75); width: 100%; max-width: 656px;">
 
 # Disk image
 
 Create a disk image for the new machine. Using 25 GB of size will let you follow the default installation process with standard partition sizes.
 
-<img src="%base_url%/assets/manual/installation-vm/020-disk.png" style="box-shadow: 0 3px 10px rgba(0,0,0,0.75);">
+<img src="%base_url%/assets/manual/installation-vm/020-disk.png" style="box-shadow: 0 3px 10px rgba(0,0,0,0.75); width: 100%; max-width: 656px;">
 
 # System
 
