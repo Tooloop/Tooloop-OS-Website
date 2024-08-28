@@ -39,7 +39,7 @@ The [Ubuntu website](https://ubuntu.com/server/docs/system-requirements) recomme
 - Min. 3 GB of RAM
 - Min. 25 GB of storage
 
-It will be diffucult to find a box with specs below those requirements and thus 
+It will be difficult to find a box with specs below those requirements and thus 
 there is almost no hard limit on hardware.
 
 
