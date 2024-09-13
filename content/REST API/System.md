@@ -13,6 +13,8 @@ GET /tooloop/api/v1.0/system
 ```json
 {
   "hostname": "tooloop-box-hostname",
+  "ip_address": "10.0.2.15",
+  "mac_address": "fec0::d0e1:84ff:fee9:db23",
   "needs_reboot": false
 }
 ```
