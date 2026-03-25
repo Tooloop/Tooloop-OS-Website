@@ -2,7 +2,14 @@
 Title: File management
 ---
 
-# From a Mac (AFP)
+# On the machine
+
+You can click/tap on the desktop and find a file manager in the menu under _Tools/File Manager_.
+![Screenshot of the desktop menu](/assets/manual/menu-file-manager.png)
+
+![Screenshot of the desktop menu](/assets/manual/file-manager.png)
+
+# Remote from a Mac (AFP)
 
 On a Mac you can access the `home` folder and the `assets` folder via AFP.  
 In Finder find the machine in the network view or connect to it via *Goto/Connect to server*
@@ -12,7 +19,7 @@ afp://<IP-ADDRESS>
 afp://<HOSTNAME>.local
 ```
 
-# From Windows (SFTP)
+# Remote from Windows (SFTP)
 
 On Windows, the easiest way to copy files on the machine is using an SFTP browser like [Cyberduck](https://cyberduck.io/) or [FileZilla](https://filezilla-project.org/).
 
